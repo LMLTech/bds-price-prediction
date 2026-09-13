@@ -1,63 +1,82 @@
-🏡 Dự Báo Giá Bất Động Sản (Hà Nội & TP.HCM)
+# 🏡 Dự Báo Giá Bất Động Sản (Real Estate Price Prediction)
 
-> **Đề tài:** Ứng dụng mô hình Hồi quy tuyến tính đa biến (Multiple Linear Regression) trong việc dự báo giá bán bất động sản dựa trên đặc điểm kết cấu và vị trí không gian địa lý.
-
-Dự án này tập trung phân tích và mô hình hóa dữ liệu bất động sản tại hai thị trường trọng điểm là **Hà Nội** và **Thành phố Hồ Chí Minh**. Bằng việc loại bỏ nhiễu từ các tỉnh lẻ, mô hình hướng tới việc đạt được độ chính xác (R²) cao nhất.
+> **Đề tài:** Dự báo giá bất động sản dựa trên các đặc điểm tài sản và vị trí bằng phương pháp Hồi quy tuyến tính (Real Estate Price Prediction Based on Property and Location Features Using Linear Regression).
 
 ---
 
 ## 📂 Cấu Trúc Dự Án (Project Structure)
 
-Nhóm thống nhất sử dụng cấu trúc thư mục dưới đây để không bị xung đột mã nguồn (conflict) trong quá trình ráp code:
+Dự án được tổ chức theo cấu trúc Data Science tiêu chuẩn:
 
 ```text
-bds-price-prediction/
+RealEstatePrediction/
 │
 ├── data/
-│   ├── raw/                        # Chứa dữ liệu gốc tải từ Kaggle (dataset_BDS.xlsx)
-│   └── processed/                  # Chứa dữ liệu SẠCH sau khi Chương 3 chạy xong (dataset_BDS_cleaned.csv)
+│   ├── raw/                        # Chứa dữ liệu gốc (house_buying_dec29th_2025.csv / dataset_BDS.xlsx)
+│   └── processed/                  # Chứa dữ liệu đã xử lý (housing_clean.csv, housing_features.csv, predictions.csv)
 │
-├── src/
-│   ├── chuong3_tien_xu_ly.py       # Code: Làm sạch, Geocoding, tính khoảng cách (Liêm)
-│   ├── chuong4_xay_dung_mo_hinh.py # Code: Train/Test Split, Hồi quy tuyến tính (Thái)
-│   └── chuong4_truc_quan_hoa.py    # Code: Đánh giá sai số, vẽ biểu đồ (Ngọc Anh)
+├── notebooks/
+│   ├── 01_data_understanding.ipynb # Phase 1: Thống kê mô tả & khám phá cấu trúc dữ liệu thô
+│   ├── 02_data_cleaning.ipynb      # Phase 2: Làm sạch, lọc ngưỡng vật lý domain & tránh rò rỉ dữ liệu
+│   ├── 03_eda.ipynb                # Phase 3: Khám phá quan hệ thuộc tính, ma trận tương quan & heteroscedasticity
+│   ├── 04_feature_engineering.ipynb # Phase 4: Trích xuất Vị trí (Province/District) & Khoảng cách Haversine tới CBD
+│   ├── 05_model_training.ipynb     # Phase 5 & 6: Train/Test Split (80/20) & Huấn luyện Pipeline Linear Regression
+│   └── 06_evaluation.ipynb         # Phase 7 & 8: Kiểm định chỉ số (MAE, RMSE, R², MAPE), Residual Plots & Top Errors
 │
-├── images/                         # Nơi tự động lưu các biểu đồ (Heatmap, Scatter plot...)
+├── src/                            # Mã nguồn mô-đun tái sử dụng
+│   ├── preprocessing.py            # Hàm nạp dữ liệu & lọc sạch miền giá trị (domain knowledge)
+│   ├── features.py                 # Tách chuỗi vị trí, tính khoảng cách Haversine tới CBD & chọn đặc trưng
+│   ├── train.py                    # Xây dựng scikit-learn Pipeline (ColumnTransformer, StandardScaler, OneHotEncoder)
+│   ├── evaluate.py                 # Đánh giá chỉ số, vẽ biểu đồ sai số Residuals & trích xuất Top lỗi dự báo
+│   └── predict.py                  # Module dự đoán giá cho dữ liệu bất động sản mới
+│
+├── models/
+│   └── linear_regression.pkl       # Pipeline mô hình đã huấn luyện
+│
+├── reports/
+│   └── figures/                    # Nơi tự động lưu các biểu đồ (actual_vs_predicted.png, residual_plots.png)
+│
+├── SPECIFICATION.md                # Tài liệu yêu cầu kỹ thuật & quy chuẩn dự án
 ├── requirements.txt                # Danh sách thư viện Python cần thiết
 └── README.md                       # Tài liệu hướng dẫn này
-⚙️ Cài Đặt Môi Trường (Setup)
-Yêu cầu máy tính đã cài đặt sẵn Python 3.8+ và Visual Studio Code.
+```
 
-Bước 1: Mở thư mục dự án bằng Visual Studio Code.
+---
 
-Bước 2: Mở Terminal (Phím tắt: Ctrl + `).
+## ⚙️ Cài Đặt Môi Trường (Setup)
 
-Bước 3: Cài đặt toàn bộ thư viện đồng nhất cho cả nhóm bằng lệnh:
+Yêu cầu máy tính đã cài đặt Python 3.8+ và pip.
 
-Bash
+Cài đặt toàn bộ thư viện phụ thuộc:
+
+```bash
 pip install -r requirements.txt
-🚀 Hướng Dẫn Chạy Mã Nguồn (Quy Trình Pipeline)
-⚠️ LƯU Ý: Các thành viên phải chạy code theo đúng thứ tự dưới đây để luồng dữ liệu (Data Pipeline) không bị đứt gãy.
+```
 
-1️⃣ Giai đoạn Tiền xử lý (Thực hiện bởi: Lê Minh Liêm)
-Thao tác: Chạy file src/chuong3_tien_xu_ly.py.
+---
 
-Nhiệm vụ: Đọc file Excel gốc, lọc riêng HN & HCM, điền khuyết (Median), tính khoảng cách Haversine đến trung tâm, loại bỏ ngoại lệ (IQR), và sinh ra ma trận tương quan.
+## 🚀 Quy Trình Thực Thi Dự Án (Data Pipeline & Execution)
 
-Đầu ra (Output): Tạo ra file dữ liệu hoàn toàn sạch data/processed/dataset_BDS_cleaned.csv đưa cho Thái.
+### 1. Thực thi theo các Notebooks (Khám phá & Trực quan hóa)
+Chạy lần lượt các notebook trong thư mục `notebooks/` theo thứ tự từ `01` đến `06`:
+1. `notebooks/01_data_understanding.ipynb`
+2. `notebooks/02_data_cleaning.ipynb`
+3. `notebooks/03_eda.ipynb`
+4. `notebooks/04_feature_engineering.ipynb`
+5. `notebooks/05_model_training.ipynb`
+6. `notebooks/06_evaluation.ipynb`
 
-2️⃣ Giai đoạn Huấn luyện Mô hình (Thực hiện bởi: Vũ Nguyên Quốc Thái)
-Thao tác: Chạy file src/chuong4_xay_dung_mo_hinh.py.
+### 2. Thực thi qua Mô-đun Python (`src/`)
+Có thể chạy trực tiếp các mô-đun Python trong thư mục `src/` để tái tạo toàn bộ pipeline huấn luyện và dự báo.
 
-Nhiệm vụ: Đọc file .csv sạch ở bước 1, thực hiện chia tập train_test_split (80/20), chuẩn hóa StandardScaler và huấn luyện mô hình Hồi quy tuyến tính (Linear Regression).
+---
 
-Đầu ra (Output): Các chỉ số đánh giá mô hình: MAE, RMSE, R² và các hệ số hồi quy (Coefficients).
+## 📊 Kết Quả Đánh Giá Mô Hình (Model Performance)
 
-3️⃣ Giai đoạn Trực quan hóa (Thực hiện bởi: Ngọc Anh)
-Thao tác: Chạy file src/chuong4_truc_quan_hoa.py (sau khi Thái đã code xong mô hình).
+Mô hình **Multiple Linear Regression** đạt các chỉ số kiểm định trên tập Test (20% dữ liệu):
 
-Nhiệm vụ: Vẽ biểu đồ so sánh Giá thực tế vs. Giá dự đoán, biểu đồ phân phối sai số (Residuals).
+- **$R^2$**: `0.3017` (Giải thích được 30.17% sự biến thiên của giá bất động sản dựa trên đặc điểm kết cấu và vị trí).
+- **MAE**: `8,417.96` triệu VNĐ (~8.42 tỷ VNĐ).
+- **RMSE**: `22,620.56` triệu VNĐ (~22.62 tỷ VNĐ).
 
-Đầu ra (Output): Hình ảnh .png lưu vào thư mục images/ để chèn vào báo cáo Word.
-
-Dự án thực hiện phục vụ bài tập lớn môn học.
+Biểu đồ so sánh Giá thực tế vs Giá dự đoán và Phân phối sai số dư được tự động xuất ra tại thư mục `reports/figures/`.
