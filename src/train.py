@@ -58,6 +58,6 @@ def train_and_save_model(X_train, y_train, output_path='models/linear_regression
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     joblib.dump(pipeline, output_path)
-    print(f"Đã huấn luyện và lưu mô hình thành công tại: {output_path}")
+    print(f"Model saved successfully at: {output_path}")
 
     return pipeline
