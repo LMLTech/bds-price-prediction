@@ -2,7 +2,7 @@ import os
 import joblib
 import numpy as np
 import pandas as pd
-from features import process_location
+from features import process_location, add_engineered_features
 
 
 def predict_price(input_data, model_path='models/linear_regression.pkl', is_log_target=False):
@@ -30,9 +30,11 @@ def predict_price(input_data, model_path='models/linear_regression.pkl', is_log_
 
     # Xử lý vị trí & tính khoảng cách tới CBD (spatial proxy)
     df_proc = process_location(df_input)
+    df_proc = add_engineered_features(df_proc)
 
     # Dự đoán
     y_pred_raw = pipeline.predict(df_proc)
+
 
     if is_log_target:
         y_pred = np.expm1(y_pred_raw)

@@ -17,7 +17,7 @@ def build_pipeline():
     - Biến phân loại (province, district): Imputer(most_frequent) + OneHotEncoder(handle_unknown='ignore')
     - Mô hình: LinearRegression()
     """
-    numeric_features = ['area_m2', 'bedrooms', 'frontage', 'distance_to_center_km']
+    numeric_features = ['area_m2', 'log_area', 'area_sq', 'bedrooms', 'frontage', 'distance_to_center_km', 'log_distance', 'area_dist_inter']
     categorical_features = ['province', 'district']
 
     numeric_transformer = Pipeline(steps=[

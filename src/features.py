@@ -121,19 +121,52 @@ def process_location(df):
     return df_feat
 
 
+def add_engineered_features(df):
+    """
+    Tạo các đặc trưng phi tuyến và tương quan miền (Domain Feature Engineering):
+    - log_area: log1p(area_m2) bắt quan hệ tiệm cận
+    - area_sq: area_m2^2 đặc trưng bậc 2 trong khuôn khổ Linear Regression
+    - log_distance: log1p(distance_to_center_km)
+    - area_dist_inter: area_m2 * distance_to_center_km
+    """
+    df_eng = df.copy()
+
+    if 'area_m2' in df_eng.columns:
+        df_eng['log_area'] = np.log1p(df_eng['area_m2'])
+        df_eng['area_sq'] = df_eng['area_m2'] ** 2
+
+    if 'distance_to_center_km' in df_eng.columns:
+        med_dist = df_eng['distance_to_center_km'].median()
+        dist_filled = df_eng['distance_to_center_km'].fillna(med_dist)
+        df_eng['log_distance'] = np.log1p(dist_filled)
+
+        if 'area_m2' in df_eng.columns:
+            df_eng['area_dist_inter'] = df_eng['area_m2'] * dist_filled
+
+    return df_eng
+
+
 def select_model_features(df):
     """
     Lựa chọn tập đặc trưng mô hình:
     - Loại bỏ các cột không dùng hoặc đa cộng tuyến (bathrooms, floors, timeline_hours)
-    - Giữ các biến số: area_m2, bedrooms, frontage, distance_to_center_km
+    - Giữ các biến số: area_m2, log_area, area_sq, bedrooms, frontage, distance_to_center_km, log_distance, area_dist_inter
     - Giữ các biến phân loại: province, district
     """
     df_feat = df.copy()
+
+    if 'province' not in df_feat.columns or 'district' not in df_feat.columns:
+        df_feat = process_location(df_feat)
+
+    df_feat = add_engineered_features(df_feat)
 
     cols_to_drop = ['bathrooms', 'floors', 'timeline_hours', 'location']
     df_feat = df_feat.drop(columns=[col for col in cols_to_drop if col in df_feat.columns])
 
     # Bỏ các dòng thiếu province/district
-    df_feat = df_feat.dropna(subset=['province', 'district'])
+    if 'province' in df_feat.columns and 'district' in df_feat.columns:
+        df_feat = df_feat.dropna(subset=['province', 'district'])
 
     return df_feat
+
+
