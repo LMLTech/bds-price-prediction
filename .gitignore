@@ -1,0 +1,7 @@
+data/
+.idea/
+.venv/
+SPECIFICATION.md
+WEB_SPECIFICATION.md
+__pycache__/
+*.pyc
