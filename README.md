@@ -120,3 +120,36 @@ Mô hình **Multiple Linear Regression** đạt các chỉ số kiểm định c
 
 - **5-Fold Cross-Validation (on $X_{train}$)**:
   - **CV Mean $R^2$**: `0.3665 ± 0.0387` (Đồng nhất hoàn toàn với Test Set).
+
+---
+
+## 🌐 Ứng Dụng Web (Web Application: FastAPI + Angular)
+
+Dự án được mở rộng thành ứng dụng web hoàn chỉnh gồm:
+- **FastAPI Backend (Python)**: REST API thực thi pipeline ML và phục vụ tài nguyên trực quan hóa.
+- **Angular Frontend (TypeScript)**: Giao diện web khoa học, hỗ trợ dự báo thời gian thực và Dashboard trực quan hóa 15 biểu đồ.
+
+### 1. Khởi động FastAPI Backend (Port 8000)
+
+```bash
+# Từ thư mục gốc dự án:
+uvicorn backend.main:app --reload --port 8000
+```
+- API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
+- Health Check: [http://localhost:8000/api/health](http://localhost:8000/api/health)
+
+### 2. Khởi động Angular Frontend (Port 4200)
+
+```bash
+# Di chuyển vào thư mục frontend:
+cd frontend
+
+# Khởi chạy máy chủ phát triển Angular:
+npm start
+```
+- Web Application UI: [http://localhost:4200](http://localhost:4200)
+- Các trang chính:
+  - `/`: Trang chủ tổng quan & quy trình pipeline
+  - `/predict`: Form nhập thuộc tính & dự báo giá bất động sản
+  - `/visualization`: Dashboard trực quan hóa 15 biểu đồ học thuật
+  - `/model`: Thông tin mô hình, chỉ số & hạn chế học thuật
