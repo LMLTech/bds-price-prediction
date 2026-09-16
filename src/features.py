@@ -99,6 +99,9 @@ def process_location(df):
 
         # Province là phần tử cuối cùng
         df_feat['province'] = split_loc.apply(lambda x: x[-1].strip() if isinstance(x, list) else None)
+        
+        # Chuẩn hóa tên Tỉnh/Thành phố để khớp với CBD_COORDINATES và dữ liệu gốc
+        df_feat['province'] = df_feat['province'].replace({'TP. Hồ Chí Minh': 'Hồ Chí Minh', 'TP. Hà Nội': 'Hà Nội'})
 
         # District là phần tử áp chót
         df_feat['district'] = split_loc.apply(lambda x: x[-2].strip() if isinstance(x, list) and len(x) >= 2 else None)
