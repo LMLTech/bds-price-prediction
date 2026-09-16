@@ -1,0 +1,144 @@
+{
+  "experiment_id": "Phase_2.7.2_Larger_Validation",
+  "phase": "Phase 2.7.2 Larger Stratified Geocoding Validation",
+  "timestamp": "2026-09-17 03:19:58",
+  "sample_size": 400,
+  "random_state": 42,
+  "provider": "OpenStreetMap Nominatim",
+  "raw_query_metrics": {
+    "valid_coordinates": 38,
+    "technical_success_pct": 9.5,
+    "no_result_count": 362,
+    "admin_match_count": 23,
+    "spatially_useful_count": 15
+  },
+  "sanitized_query_metrics": {
+    "valid_coordinates": 78,
+    "technical_success_pct": 19.5,
+    "no_result_count": 322,
+    "admin_match_count": 55,
+    "admin_match_pct": 13.75,
+    "spatially_useful_count": 40,
+    "spatially_useful_pct": 10.0
+  },
+  "delta_metrics": {
+    "valid_coordinates": 40,
+    "technical_success_pct_delta": 10.0,
+    "no_result_delta": -40,
+    "admin_match_delta": 32,
+    "spatially_useful_delta": 25
+  },
+  "province_metrics": {
+    "Hồ Chí Minh": {
+      "total": 200,
+      "raw_valid": 11,
+      "raw_technical_pct": 5.5,
+      "sanitized_valid": 29,
+      "sanitized_technical_pct": 14.5,
+      "sanitized_admin_match": 22,
+      "sanitized_spatially_useful": 18
+    },
+    "Hà Nội": {
+      "total": 200,
+      "raw_valid": 27,
+      "raw_technical_pct": 13.5,
+      "sanitized_valid": 49,
+      "sanitized_technical_pct": 24.5,
+      "sanitized_admin_match": 33,
+      "sanitized_spatially_useful": 22
+    }
+  },
+  "granularity_metrics": {
+    "alley_or_lane": {
+      "total": 91,
+      "raw_valid": 8,
+      "sanitized_valid": 16,
+      "sanitized_technical_pct": 17.58,
+      "sanitized_admin_match": 14,
+      "sanitized_spatially_useful": 14
+    },
+    "full_address": {
+      "total": 10,
+      "raw_valid": 0,
+      "sanitized_valid": 1,
+      "sanitized_technical_pct": 10.0,
+      "sanitized_admin_match": 1,
+      "sanitized_spatially_useful": 1
+    },
+    "house_number_and_street": {
+      "total": 4,
+      "raw_valid": 0,
+      "sanitized_valid": 1,
+      "sanitized_technical_pct": 25.0,
+      "sanitized_admin_match": 0,
+      "sanitized_spatially_useful": 0
+    },
+    "landmark_only": {
+      "total": 15,
+      "raw_valid": 0,
+      "sanitized_valid": 0,
+      "sanitized_technical_pct": 0.0,
+      "sanitized_admin_match": 0,
+      "sanitized_spatially_useful": 0
+    },
+    "project_or_residential_area": {
+      "total": 14,
+      "raw_valid": 0,
+      "sanitized_valid": 0,
+      "sanitized_technical_pct": 0.0,
+      "sanitized_admin_match": 0,
+      "sanitized_spatially_useful": 0
+    },
+    "street_and_ward": {
+      "total": 19,
+      "raw_valid": 2,
+      "sanitized_valid": 4,
+      "sanitized_technical_pct": 21.05,
+      "sanitized_admin_match": 2,
+      "sanitized_spatially_useful": 1
+    },
+    "street_only": {
+      "total": 185,
+      "raw_valid": 28,
+      "sanitized_valid": 48,
+      "sanitized_technical_pct": 25.95,
+      "sanitized_admin_match": 31,
+      "sanitized_spatially_useful": 19
+    },
+    "unclear": {
+      "total": 62,
+      "raw_valid": 0,
+      "sanitized_valid": 8,
+      "sanitized_technical_pct": 12.9,
+      "sanitized_admin_match": 7,
+      "sanitized_spatially_useful": 5
+    }
+  },
+  "manual_validation_metrics": {
+    "total_audited": 47,
+    "correct_count": 8,
+    "correct_pct": 17.02,
+    "acceptable_coarse_count": 4,
+    "incorrect_or_no_result_count": 35
+  },
+  "information_loss_metrics": {
+    "house_number_loss_pct": 0.0,
+    "street_name_loss_pct": 0.0,
+    "ward_name_loss_pct": 0.0,
+    "overall_information_loss_rate": 0.0
+  },
+  "failure_taxonomy": {
+    "missing_osm_coverage_or_informal_street": 225,
+    "unmapped_alley": 64,
+    "project_name_ambiguity": 32
+  },
+  "production_safety": {
+    "src_modified": false,
+    "models_modified": false,
+    "processed_data_modified": false,
+    "production_notebooks_modified": false,
+    "p26_dataset_modified": false
+  },
+  "final_status": "CONDITIONAL",
+  "recommendation": "GEOCODING_ITERATION_REQUIRED"
+}

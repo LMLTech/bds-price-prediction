@@ -1,0 +1,41 @@
+{
+  "dataset_integrity": {
+    "total_records": 500,
+    "unique_ids": 500,
+    "unique_urls": 500,
+    "duplicate_ids": 0,
+    "duplicate_urls": 0
+  },
+  "discrepancy_investigation": {
+    "phase1_candidates": 40951,
+    "phase2_candidates": 58333,
+    "raw_csv_candidates": 58333,
+    "cleaned_csv_candidates": 40951,
+    "root_cause": "Phase 1 reported candidate count from housing_clean.csv (post Stage 02 Data Cleaning), while Phase 2 reported count from house_buying_dec29th_2025.csv (Stage 00 Raw Dataset)."
+  },
+  "address_duplication": {
+    "unique_address_raw": 35,
+    "duplicated_address_groups": 2,
+    "rows_in_duplicate_groups": 467,
+    "duplicate_occurrences_beyond_first": 465,
+    "explanation": "235 listings captured 'Tân Phú, Hồ Chí Minh' and 230 listings captured 'Hoài Đức, Hà Nội' due to BeautifulSoup select_one('div.address') matching the first item of a site-wide navigation sidebar widget on batdongsan.vn."
+  },
+  "spatial_granularity_breakdown": {
+    "LEVEL 2 — STREET_LEVEL": 240,
+    "LEVEL 4 — ALLEY / NGÕ / HẺM": 126,
+    "LEVEL 8 — UNKNOWN / COARSE": 90,
+    "LEVEL 1 — HOUSE_LEVEL": 14,
+    "LEVEL 3 — STREET + WARD": 13,
+    "LEVEL 6 — LANDMARK / NEIGHBORHOOD": 9,
+    "LEVEL 5 — PROJECT / RESIDENTIAL AREA": 8
+  },
+  "provenance_distribution": {
+    "dedicated_address": 457,
+    "description": 43
+  },
+  "validation_breakdown": {
+    "consistent": 497,
+    "partially_consistent": 3
+  },
+  "final_recommendation": "READY_FOR_GEOCODING_PILOT"
+}

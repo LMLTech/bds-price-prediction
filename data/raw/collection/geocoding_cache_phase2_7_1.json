@@ -1,0 +1,2474 @@
+{
+  "An Dương Vương p An Lạc, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "An Dương Vương p An Lạc, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:23",
+    "status_code": 200,
+    "candidates_count": 3,
+    "raw_response": [
+      {
+        "place_id": 259124742,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 459133511,
+        "lat": "10.7391062",
+        "lon": "106.6171867",
+        "class": "amenity",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "amenity",
+        "name": "Bệnh viện Triều An",
+        "display_name": "Bệnh viện Triều An, 425, Đường Kinh Dương Vương, Khu phố 21, Phường An Lạc, Thành phố Hồ Chí Minh, 71959, Việt Nam",
+        "address": {
+          "amenity": "Bệnh viện Triều An",
+          "house_number": "425",
+          "road": "Đường Kinh Dương Vương",
+          "neighbourhood": "Khu phố 21",
+          "suburb": "Phường An Lạc",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71959",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7385116",
+          "10.7398851",
+          "106.6164862",
+          "106.6177541"
+        ]
+      },
+      {
+        "place_id": 256013432,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 508741159,
+        "lat": "10.7388442",
+        "lon": "106.6130488",
+        "class": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "amenity",
+        "name": "Trường Tiểu học An Lạc 3",
+        "display_name": "Trường Tiểu học An Lạc 3, 504/58C, Đường Kinh Dương Vương, Khu phố 23, Phường An Lạc, Thành phố Hồ Chí Minh, 71959, Việt Nam",
+        "address": {
+          "amenity": "Trường Tiểu học An Lạc 3",
+          "house_number": "504/58C",
+          "road": "Đường Kinh Dương Vương",
+          "neighbourhood": "Khu phố 23",
+          "suburb": "Phường An Lạc",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71959",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7382909",
+          "10.7393614",
+          "106.6126145",
+          "106.6134764"
+        ]
+      },
+      {
+        "place_id": 259124982,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 508741166,
+        "lat": "10.7287896",
+        "lon": "106.6099478",
+        "class": "amenity",
+        "type": "school",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "amenity",
+        "name": "Trường Tiểu học An Lạc 1",
+        "display_name": "Trường Tiểu học An Lạc 1, 401, Đường Kinh Dương Vương, Khu phố 36, Phường An Lạc, Thành phố Hồ Chí Minh, 71959, Việt Nam",
+        "address": {
+          "amenity": "Trường Tiểu học An Lạc 1",
+          "house_number": "401",
+          "road": "Đường Kinh Dương Vương",
+          "neighbourhood": "Khu phố 36",
+          "suburb": "Phường An Lạc",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71959",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7281835",
+          "10.7291964",
+          "106.6095920",
+          "106.6104342"
+        ]
+      }
+    ]
+  },
+  "7, Cầu Giấy, Thành phố Hà Nội, Việt Nam": {
+    "query": "7, Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:25",
+    "status_code": 200,
+    "candidates_count": 3,
+    "raw_response": [
+      {
+        "place_id": 239138876,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 846853054,
+        "lat": "21.0273542",
+        "lon": "105.7847284",
+        "class": "building",
+        "type": "office",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "building",
+        "name": "Tòa nhà Hội Liên hiệp Phụ nữ thành phố Hà Nội",
+        "display_name": "Tòa nhà Hội Liên hiệp Phụ nữ thành phố Hà Nội, 7, Phố Tôn Thất Thuyết, Kẻ Vòng (Dịch Vọng), Phường Cầu Giấy, Thành phố Hà Nội, 10192, Việt Nam",
+        "address": {
+          "building": "Tòa nhà Hội Liên hiệp Phụ nữ thành phố Hà Nội",
+          "house_number": "7",
+          "road": "Phố Tôn Thất Thuyết",
+          "quarter": "Kẻ Vòng (Dịch Vọng)",
+          "suburb": "Phường Cầu Giấy",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "10192",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0269178",
+          "21.0277703",
+          "105.7843634",
+          "105.7849421"
+        ]
+      },
+      {
+        "place_id": 239262843,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1254502157,
+        "lat": "21.0361786",
+        "lon": "105.7891169",
+        "class": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "7, Đường Xuân Thủy, Hoài Đức Phủ, Kẻ Vòng (Dịch Vọng), Phường Cầu Giấy, Thành phố Hà Nội, 11314, Việt Nam",
+        "address": {
+          "house_number": "7",
+          "road": "Đường Xuân Thủy",
+          "neighbourhood": "Hoài Đức Phủ",
+          "quarter": "Kẻ Vòng (Dịch Vọng)",
+          "suburb": "Phường Cầu Giấy",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11314",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0360993",
+          "21.0362587",
+          "105.7890967",
+          "105.7891417"
+        ]
+      },
+      {
+        "place_id": 239071765,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1046096964,
+        "lat": "21.0168467",
+        "lon": "105.7910129",
+        "class": "office",
+        "type": "energy_supplier",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "office",
+        "name": "Công ty Thí nghiệm điện Điện lực Hà Nội",
+        "display_name": "Công ty Thí nghiệm điện Điện lực Hà Nội, 7, Phố Nguyễn Xuân Nham, Phường Yên Hòa, Thành phố Hà Nội, 11312, Việt Nam",
+        "address": {
+          "office": "Công ty Thí nghiệm điện Điện lực Hà Nội",
+          "house_number": "7",
+          "road": "Phố Nguyễn Xuân Nham",
+          "suburb": "Phường Yên Hòa",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11312",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0166870",
+          "21.0170089",
+          "105.7908291",
+          "105.7911952"
+        ]
+      }
+    ]
+  },
+  "Khuât Duy Tiến Oto Đỗ Cửa x, Thanh Xuân, Thành phố Hà Nội, Việt Nam": {
+    "query": "Khuât Duy Tiến Oto Đỗ Cửa x, Thanh Xuân, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:28",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nguyễn Văn Công, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nguyễn Văn Công, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:30",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm gần Lạc Long Quân Tân Bình, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm gần Lạc Long Quân Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:32",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Quang Trung P11 Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Quang Trung P11 Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:34",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 258433479,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 817129222,
+        "lat": "10.8314142",
+        "lon": "106.6685215",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Quang Trung",
+        "display_name": "Quang Trung, Khu phố 5, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam",
+        "address": {
+          "road": "Quang Trung",
+          "neighbourhood": "Khu phố 5",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72100",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8268519",
+          "10.8363649",
+          "106.6585708",
+          "106.6787769"
+        ]
+      },
+      {
+        "place_id": 258651075,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 32584390,
+        "lat": "10.8288432",
+        "lon": "106.6731759",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Quang Trung",
+        "display_name": "Quang Trung, Khu phố 8, Phường Gò Vấp, Thành phố Hồ Chí Minh, 70048, Việt Nam",
+        "address": {
+          "road": "Quang Trung",
+          "neighbourhood": "Khu phố 8",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "70048",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8266965",
+          "10.8322753",
+          "106.6675414",
+          "106.6794618"
+        ]
+      },
+      {
+        "place_id": 258747126,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 721740699,
+        "lat": "10.8266291",
+        "lon": "106.6796581",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Quang Trung",
+        "display_name": "Quang Trung, Khu phố 8, Phường Gò Vấp, Thành phố Hồ Chí Minh, 71400, Việt Nam",
+        "address": {
+          "road": "Quang Trung",
+          "neighbourhood": "Khu phố 8",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71400",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8265517",
+          "10.8266965",
+          "106.6794618",
+          "106.6798506"
+        ]
+      },
+      {
+        "place_id": 258460393,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 763519793,
+        "lat": "10.8264156",
+        "lon": "106.6801117",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Quang Trung",
+        "display_name": "Quang Trung, Khu phố 13, Phường Hạnh Thông, Thành phố Hồ Chí Minh, 71400, Việt Nam",
+        "address": {
+          "road": "Quang Trung",
+          "neighbourhood": "Khu phố 13",
+          "suburb": "Phường Hạnh Thông",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71400",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8263720",
+          "10.8264591",
+          "106.6800428",
+          "106.6801806"
+        ]
+      },
+      {
+        "place_id": 258764652,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1308759071,
+        "lat": "10.8348173",
+        "lon": "106.6640095",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Quang Trung",
+        "display_name": "Quang Trung, Khu phố 4, Phường Thông Tây Hội, Thành phố Hồ Chí Minh, 72100, Việt Nam",
+        "address": {
+          "road": "Quang Trung",
+          "neighbourhood": "Khu phố 4",
+          "suburb": "Phường Thông Tây Hội",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72100",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8322753",
+          "10.8361254",
+          "106.6598588",
+          "106.6675414"
+        ]
+      }
+    ]
+  },
+  "C176 Nhà Hẻm, Quận 7, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "C176 Nhà Hẻm, Quận 7, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:37",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "TRẦN ĐÌNH XU QUẬN 1, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "TRẦN ĐÌNH XU QUẬN 1, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:39",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "NGÕ XUÂN PHƯƠNG NGAY NGÃ TƯ NHỔN NAM TỪ LIÊM, Thành phố Hà Nội, Việt Nam": {
+    "query": "NGÕ XUÂN PHƯƠNG NGAY NGÃ TƯ NHỔN NAM TỪ LIÊM, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:42",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm, Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:44",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 258638267,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 32581200,
+        "lat": "10.8354121",
+        "lon": "106.6802570",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 145 Lê Đức Thọ",
+        "display_name": "Hẻm 145 Lê Đức Thọ, Khu phố 18, Phường Gò Vấp, Thành phố Hồ Chí Minh, 71400, Việt Nam",
+        "address": {
+          "road": "Hẻm 145 Lê Đức Thọ",
+          "neighbourhood": "Khu phố 18",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71400",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8352380",
+          "10.8357308",
+          "106.6792618",
+          "106.6812290"
+        ]
+      },
+      {
+        "place_id": 258443864,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 32586310,
+        "lat": "10.8408434",
+        "lon": "106.6758750",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 38 Lê Hoàng Phái",
+        "display_name": "Hẻm 38 Lê Hoàng Phái, Khu phố 26, Phường Gò Vấp, Thành phố Hồ Chí Minh, 71400, Việt Nam",
+        "address": {
+          "road": "Hẻm 38 Lê Hoàng Phái",
+          "neighbourhood": "Khu phố 26",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71400",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8404293",
+          "10.8413461",
+          "106.6755402",
+          "106.6760874"
+        ]
+      },
+      {
+        "place_id": 258467229,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 629044546,
+        "lat": "10.8452872",
+        "lon": "106.6746892",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 33 Đường số 5",
+        "display_name": "Hẻm 33 Đường số 5, Khu phố 30, Phường Gò Vấp, Thành phố Hồ Chí Minh, 71516, Việt Nam",
+        "address": {
+          "road": "Hẻm 33 Đường số 5",
+          "neighbourhood": "Khu phố 30",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71516",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8448537",
+          "10.8456163",
+          "106.6743118",
+          "106.6748315"
+        ]
+      },
+      {
+        "place_id": 258446307,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 629055814,
+        "lat": "10.8446396",
+        "lon": "106.6750806",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 33 Đường số 5",
+        "display_name": "Hẻm 33 Đường số 5, Khu phố 29, Phường Gò Vấp, Thành phố Hồ Chí Minh, 71516, Việt Nam",
+        "address": {
+          "road": "Hẻm 33 Đường số 5",
+          "neighbourhood": "Khu phố 29",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71516",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8444841",
+          "10.8448537",
+          "106.6748315",
+          "106.6753922"
+        ]
+      },
+      {
+        "place_id": 258648581,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 623480414,
+        "lat": "10.8277589",
+        "lon": "106.6753979",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 129 Quang Trung",
+        "display_name": "Hẻm 129 Quang Trung, Khu phố 1, Phường Gò Vấp, Thành phố Hồ Chí Minh, 70048, Việt Nam",
+        "address": {
+          "road": "Hẻm 129 Quang Trung",
+          "neighbourhood": "Khu phố 1",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "70048",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8275951",
+          "10.8279718",
+          "106.6753444",
+          "106.6754759"
+        ]
+      }
+    ]
+  },
+  "TRUNG TÂM NGỌC THỤY 30M² XÍU, Long Biên, Thành phố Hà Nội, Việt Nam": {
+    "query": "TRUNG TÂM NGỌC THỤY 30M² XÍU, Long Biên, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:46",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hương Lộ 3 Bình Tân Ngay AEON Tân Phú, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hương Lộ 3 Bình Tân Ngay AEON Tân Phú, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:48",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "RỘNG CHỈ, Long Biên, Thành phố Hà Nội, Việt Nam": {
+    "query": "RỘNG CHỈ, Long Biên, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:50",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm đường Nguyễn Cửu Vân P17 quận Bình thạnh, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm đường Nguyễn Cửu Vân P17 quận Bình thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:53",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "GÒ VẤP LÊ VĂN THỌ CV LÀNG HOA NHÀ KV, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "GÒ VẤP LÊ VĂN THỌ CV LÀNG HOA NHÀ KV, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:54",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "XUÂN ĐỈNH SIÊU ĐẸP OTO GẦN CÔNG VIÊN, Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam": {
+    "query": "XUÂN ĐỈNH SIÊU ĐẸP OTO GẦN CÔNG VIÊN, Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:57",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nguyễn Trọng Tuyển Nguyễn Văn Trỗi, Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nguyễn Trọng Tuyển Nguyễn Văn Trỗi, Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:37:59",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Phố Tôn Đức Thắng Vị Trí Lô Góc, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "Phố Tôn Đức Thắng Vị Trí Lô Góc, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:01",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "ĐƯỜNG LÁNG, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "ĐƯỜNG LÁNG, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:03",
+    "status_code": 200,
+    "candidates_count": 1,
+    "raw_response": [
+      {
+        "place_id": 238133103,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 35977789,
+        "lat": "21.0064769",
+        "lon": "105.8162687",
+        "class": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340616388189513,
+        "addresstype": "road",
+        "name": "Đường Láng",
+        "display_name": "Đường Láng, Thịnh Quang, Phường Đống Đa, Thành phố Hà Nội, 11527, Việt Nam",
+        "address": {
+          "road": "Đường Láng",
+          "neighbourhood": "Thịnh Quang",
+          "suburb": "Phường Đống Đa",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11527",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0052039",
+          "21.0077222",
+          "105.8153620",
+          "105.8171357"
+        ]
+      }
+    ]
+  },
+  "Nằm sát trục đường Nguyễn Sơn Phường Phú Thạnh Quận Tân Phú tuyến đường sầm uất khu dân cư đông đúc phù hợp vừa ở, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nằm sát trục đường Nguyễn Sơn Phường Phú Thạnh Quận Tân Phú tuyến đường sầm uất khu dân cư đông đúc phù hợp vừa ở, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:05",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "hẻm 4 m, Quận 3, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "hẻm 4 m, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:08",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 259383328,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 614634720,
+        "lat": "10.7525279",
+        "lon": "106.6827742",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 3 Nguyễn Biểu",
+        "display_name": "Hẻm 3 Nguyễn Biểu, Khu phố 3, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+        "address": {
+          "road": "Hẻm 3 Nguyễn Biểu",
+          "neighbourhood": "Khu phố 3",
+          "suburb": "Phường Chợ Quán",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72722",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7525242",
+          "10.7528206",
+          "106.6823826",
+          "106.6833534"
+        ]
+      },
+      {
+        "place_id": 259504024,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 614634718,
+        "lat": "10.7526060",
+        "lon": "106.6831569",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 676 Võ Văn Kiệt",
+        "display_name": "Hẻm 676 Võ Văn Kiệt, Khu phố 3, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+        "address": {
+          "road": "Hẻm 676 Võ Văn Kiệt",
+          "neighbourhood": "Khu phố 3",
+          "suburb": "Phường Chợ Quán",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72722",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7520754",
+          "10.7531369",
+          "106.6831084",
+          "106.6832018"
+        ]
+      },
+      {
+        "place_id": 259633848,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 614725035,
+        "lat": "10.7531299",
+        "lon": "106.6826478",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 22 Trần Bình Trọng",
+        "display_name": "Hẻm 22 Trần Bình Trọng, Khu phố 3, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+        "address": {
+          "road": "Hẻm 22 Trần Bình Trọng",
+          "neighbourhood": "Khu phố 3",
+          "suburb": "Phường Chợ Quán",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72722",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7531018",
+          "10.7531579",
+          "106.6820955",
+          "106.6832001"
+        ]
+      },
+      {
+        "place_id": 259234921,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 614725037,
+        "lat": "10.7523860",
+        "lon": "106.6829346",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 682 Đường Võ Văn Kiệt",
+        "display_name": "Hẻm 682 Đường Võ Văn Kiệt, Khu phố 3, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+        "address": {
+          "road": "Hẻm 682 Đường Võ Văn Kiệt",
+          "neighbourhood": "Khu phố 3",
+          "suburb": "Phường Chợ Quán",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72722",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7521285",
+          "10.7526434",
+          "106.6829139",
+          "106.6829554"
+        ]
+      },
+      {
+        "place_id": 258549259,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1111010236,
+        "lat": "10.7523992",
+        "lon": "106.6824831",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 702 Võ Văn Kiệt",
+        "display_name": "Hẻm 702 Võ Văn Kiệt, Khu phố 3, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+        "address": {
+          "road": "Hẻm 702 Võ Văn Kiệt",
+          "neighbourhood": "Khu phố 3",
+          "suburb": "Phường Chợ Quán",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72722",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7522638",
+          "10.7525431",
+          "106.6824352",
+          "106.6824910"
+        ]
+      }
+    ]
+  },
+  "KHƯƠNG HẠ THANH XUÂN, Thành phố Hà Nội, Việt Nam": {
+    "query": "KHƯƠNG HẠ THANH XUÂN, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:10",
+    "status_code": 200,
+    "candidates_count": 2,
+    "raw_response": [
+      {
+        "place_id": 238426410,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025962,
+        "lat": "20.9999984",
+        "lon": "105.8279102",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 36, Phố Lê Trọng Tấn, Khương Trung, Phương Liệt, Phường Phương Liệt, Thành phố Hà Nội, 11412, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "36",
+          "road": "Phố Lê Trọng Tấn",
+          "neighbourhood": "Khương Trung",
+          "suburb": "Phương Liệt",
+          "city_district": "Phường Phương Liệt",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11412",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9999484",
+          "21.0000484",
+          "105.8278602",
+          "105.8279602"
+        ]
+      },
+      {
+        "place_id": 237068982,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025958,
+        "lat": "20.9980968",
+        "lon": "105.8216320",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 225, Phố Hoàng Văn Thái, Khương Trung, Phường Khương Đình, Phường Phương Liệt, Thành phố Hà Nội, 11412, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "225",
+          "road": "Phố Hoàng Văn Thái",
+          "neighbourhood": "Khương Trung",
+          "suburb": "Phường Khương Đình",
+          "city_district": "Phường Phương Liệt",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11412",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9980468",
+          "20.9981468",
+          "105.8215820",
+          "105.8216820"
+        ]
+      }
+    ]
+  },
+  "ngõ 73 Hoàng Ngân phường Nhân Chính, Thanh Xuân, Thành phố Hà Nội, Việt Nam": {
+    "query": "ngõ 73 Hoàng Ngân phường Nhân Chính, Thanh Xuân, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:13",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "phố Hổ khẩu Trần Quốc Vượng Cầu Giấy x, Thành phố Hà Nội, Việt Nam": {
+    "query": "phố Hổ khẩu Trần Quốc Vượng Cầu Giấy x, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:15",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "ĐƯỜNG NHỰA, Nam Từ Liêm, Thành phố Hà Nội, Việt Nam": {
+    "query": "ĐƯỜNG NHỰA, Nam Từ Liêm, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:17",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "phố hoàng mai, Thành phố Hà Nội, Việt Nam": {
+    "query": "phố hoàng mai, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:19",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 235503188,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 7273837885,
+        "lat": "20.9939936",
+        "lon": "105.8500159",
+        "class": "office",
+        "type": "company",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "office",
+        "name": "Công Ty Cổ Phần Công Nghệ Heyu Việt Nam",
+        "display_name": "Công Ty Cổ Phần Công Nghệ Heyu Việt Nam, 67A, Đường Trương Định, Hoàng Mai, Kẻ Mơ, Phường Tương Mai, Thành phố Hà Nội, 11715, Việt Nam",
+        "address": {
+          "office": "Công Ty Cổ Phần Công Nghệ Heyu Việt Nam",
+          "house_number": "67A",
+          "road": "Đường Trương Định",
+          "neighbourhood": "Hoàng Mai",
+          "quarter": "Kẻ Mơ",
+          "suburb": "Phường Tương Mai",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11715",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9939436",
+          "20.9940436",
+          "105.8499659",
+          "105.8500659"
+        ]
+      },
+      {
+        "place_id": 238569459,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10720585237,
+        "lat": "20.9948099",
+        "lon": "105.8525631",
+        "class": "office",
+        "type": "company",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "office",
+        "name": "Tổng Công ty Lắp máy Việt Nam",
+        "display_name": "Tổng Công ty Lắp máy Việt Nam, Ngõ 124 Minh Khai, Hoàng Mai, Kẻ Mơ, Phường Tương Mai, Thành phố Hà Nội, 11715, Việt Nam",
+        "address": {
+          "office": "Tổng Công ty Lắp máy Việt Nam",
+          "road": "Ngõ 124 Minh Khai",
+          "neighbourhood": "Hoàng Mai",
+          "quarter": "Kẻ Mơ",
+          "suburb": "Phường Tương Mai",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11715",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9947599",
+          "20.9948599",
+          "105.8525131",
+          "105.8526131"
+        ]
+      },
+      {
+        "place_id": 420970941,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 13944634947,
+        "lat": "20.9834949",
+        "lon": "105.8650544",
+        "class": "amenity",
+        "type": "bank",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "Agribank",
+        "display_name": "Agribank, Phố Tân Mai, Phường Hoàng Mai, Thành phố Hà Nội, 11720, Việt Nam",
+        "address": {
+          "amenity": "Agribank",
+          "road": "Phố Tân Mai",
+          "suburb": "Phường Hoàng Mai",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11720",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9834449",
+          "20.9835449",
+          "105.8650044",
+          "105.8651044"
+        ]
+      },
+      {
+        "place_id": 235645511,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025691,
+        "lat": "20.9633030",
+        "lon": "105.8304590",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 7B, Phố Nguyễn Duy Trinh, Khu đô thị Linh Đàm, Hoàng Liệt, Phường Hoàng Liệt, Thành phố Hà Nội, 11719, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "7B",
+          "road": "Phố Nguyễn Duy Trinh",
+          "residential": "Khu đô thị Linh Đàm",
+          "suburb": "Hoàng Liệt",
+          "city_district": "Phường Hoàng Liệt",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11719",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9632530",
+          "20.9633530",
+          "105.8304090",
+          "105.8305090"
+        ]
+      },
+      {
+        "place_id": 238500881,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025954,
+        "lat": "20.9914116",
+        "lon": "105.8445398",
+        "class": "amenity",
+        "type": "bank",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 118, Phố Nguyễn An Ninh, Tương Mai, Phường Tương Mai, Thành phố Hà Nội, 11715, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "118",
+          "road": "Phố Nguyễn An Ninh",
+          "neighbourhood": "Tương Mai",
+          "suburb": "Phường Tương Mai",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11715",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9913616",
+          "20.9914616",
+          "105.8444898",
+          "105.8445898"
+        ]
+      }
+    ]
+  },
+  "đường Quang Trung Phường 11 Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "đường Quang Trung Phường 11 Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:21",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 258875702,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 446937577,
+        "lat": "10.8322134",
+        "lon": "106.6704065",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 312 Đường Quang Trung",
+        "display_name": "Hẻm 312 Đường Quang Trung, Khu phố 9, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam",
+        "address": {
+          "road": "Hẻm 312 Đường Quang Trung",
+          "neighbourhood": "Khu phố 9",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72100",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8312023",
+          "10.8334711",
+          "106.6697077",
+          "106.6704270"
+        ]
+      },
+      {
+        "place_id": 255728314,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 623480425,
+        "lat": "10.8273029",
+        "lon": "106.6753108",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 107/8/14 Đường Quang Trung",
+        "display_name": "Hẻm 107/8/14 Đường Quang Trung, Khu phố 1, Phường Gò Vấp, Thành phố Hồ Chí Minh, 70048, Việt Nam",
+        "address": {
+          "road": "Hẻm 107/8/14 Đường Quang Trung",
+          "neighbourhood": "Khu phố 1",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "70048",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8272039",
+          "10.8274030",
+          "106.6752862",
+          "106.6753397"
+        ]
+      },
+      {
+        "place_id": 258987782,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 606181513,
+        "lat": "10.8300924",
+        "lon": "106.6650660",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 499/6/96 Đường Quang Trung",
+        "display_name": "Hẻm 499/6/96 Đường Quang Trung, Khu phố 7, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam",
+        "address": {
+          "road": "Hẻm 499/6/96 Đường Quang Trung",
+          "neighbourhood": "Khu phố 7",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72100",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8298750",
+          "10.8301302",
+          "106.6648775",
+          "106.6653063"
+        ]
+      },
+      {
+        "place_id": 258996552,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 241065504,
+        "lat": "10.8281243",
+        "lon": "106.6783086",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 50/8 Đường Quang Trung",
+        "display_name": "Hẻm 50/8 Đường Quang Trung, Khu phố 8, Phường Gò Vấp, Thành phố Hồ Chí Minh, 70048, Việt Nam",
+        "address": {
+          "road": "Hẻm 50/8 Đường Quang Trung",
+          "neighbourhood": "Khu phố 8",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "70048",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8281169",
+          "10.8281317",
+          "106.6779957",
+          "106.6786216"
+        ]
+      },
+      {
+        "place_id": 259059576,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1118214095,
+        "lat": "10.8312115",
+        "lon": "106.6695831",
+        "class": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04006703364614327,
+        "addresstype": "road",
+        "name": "Hẻm 312 Đường Quang Trung",
+        "display_name": "Hẻm 312 Đường Quang Trung, Khu phố 9, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam",
+        "address": {
+          "road": "Hẻm 312 Đường Quang Trung",
+          "neighbourhood": "Khu phố 9",
+          "suburb": "Phường Gò Vấp",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72100",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8311514",
+          "10.8313140",
+          "106.6694507",
+          "106.6697077"
+        ]
+      }
+    ]
+  },
+  "TẶNG NỘI THẤT GẦN OTO Chủ nhà làm chuyển nơi làm ăn nên bán lại, Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam": {
+    "query": "TẶNG NỘI THẤT GẦN OTO Chủ nhà làm chuyển nơi làm ăn nên bán lại, Bắc Từ Liêm, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:23",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm THÔNG TỨ TUNG QUA CHỢ HOÀNG HOA THÁM, Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm THÔNG TỨ TUNG QUA CHỢ HOÀNG HOA THÁM, Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:26",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "dịch vụ KĐT Văn Khê thiết kế hợp lý, Hà Đông, Thành phố Hà Nội, Việt Nam": {
+    "query": "dịch vụ KĐT Văn Khê thiết kế hợp lý, Hà Đông, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:28",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Mặt phố Kim Đồng quận Hoàng Mai Hà Nội Tuyến phố sầm uất giao thông thuận lợi thông Giải Phóng Trương Định Giáp, Việt Nam": {
+    "query": "Mặt phố Kim Đồng quận Hoàng Mai Hà Nội Tuyến phố sầm uất giao thông thuận lợi thông Giải Phóng Trương Định Giáp, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:31",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Gần nhà ga T3 72M², Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Gần nhà ga T3 72M², Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:33",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "THỤY KHUÊ TÂY HỒ MT 4, Thành phố Hà Nội, Việt Nam": {
+    "query": "THỤY KHUÊ TÂY HỒ MT 4, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:35",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "ĐẲNG CẤP RA MẶT PHỐ TRƯỜNG CHINH, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "ĐẲNG CẤP RA MẶT PHỐ TRƯỜNG CHINH, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:38",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "phố Khuất Duy Tiến thông sang đường Nguyễn Trãi, Thanh Xuân, Thành phố Hà Nội, Việt Nam": {
+    "query": "phố Khuất Duy Tiến thông sang đường Nguyễn Trãi, Thanh Xuân, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:40",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nhà Hẻm X V N T phường 21 quận Bình Thạnh 19m2x2 5T, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nhà Hẻm X V N T phường 21 quận Bình Thạnh 19m2x2 5T, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:42",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Ngay gần Ga Cát Linh Hà Đông Bệnh viện siêu thị trường, Thành phố Hà Nội, Việt Nam": {
+    "query": "Ngay gần Ga Cát Linh Hà Đông Bệnh viện siêu thị trường, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:44",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Tập Thể Tầng 1 Nhân Hoà Vũ Trọng Phụng Ô Tô KD, Thanh Xuân, Thành phố Hà Nội, Việt Nam": {
+    "query": "Tập Thể Tầng 1 Nhân Hoà Vũ Trọng Phụng Ô Tô KD, Thanh Xuân, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:47",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Đường số 22 Phường Hiệp Bình Chánh TP Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Đường số 22 Phường Hiệp Bình Chánh TP Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:50",
+    "status_code": 200,
+    "candidates_count": 1,
+    "raw_response": [
+      {
+        "place_id": 258481371,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 589929833,
+        "lat": "10.8310876",
+        "lon": "106.7291249",
+        "class": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "building",
+        "name": "Trụ sở Khu phố 5",
+        "display_name": "Trụ sở Khu phố 5, 22, Đường số 8, Khu phố 37, Phường Hiệp Bình, Thành phố Hồ Chí Minh, 72309, Việt Nam",
+        "address": {
+          "building": "Trụ sở Khu phố 5",
+          "house_number": "22",
+          "road": "Đường số 8",
+          "neighbourhood": "Khu phố 37",
+          "suburb": "Phường Hiệp Bình",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72309",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8309996",
+          "10.8311570",
+          "106.7290496",
+          "106.7292105"
+        ]
+      }
+    ]
+  },
+  "Cách Cống Lở 1 căn oto vô tận cửa, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Cách Cống Lở 1 căn oto vô tận cửa, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:52",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "đường số thông Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "đường số thông Lê Văn Việt, Quận 9, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:54",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nguyễn Khang Yên Hòa Cầu Giấy Hà Nội ngõ thông các hướng nha đi lại tiện lợi lắm ạ, Việt Nam": {
+    "query": "Nguyễn Khang Yên Hòa Cầu Giấy Hà Nội ngõ thông các hướng nha đi lại tiện lợi lắm ạ, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:56",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm RA, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm RA, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:38:59",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Dưới Thạnh Lộc hỗ trợ vay Bank tối đa, Quận 12, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Dưới Thạnh Lộc hỗ trợ vay Bank tối đa, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:01",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "ngõ 91 Nguyễn Chi Thanh, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "ngõ 91 Nguyễn Chi Thanh, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:04",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "phố Nguyễn Chí Thanh, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "phố Nguyễn Chí Thanh, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:06",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 236738661,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 906732060,
+        "lat": "21.0195344",
+        "lon": "105.8074078",
+        "class": "amenity",
+        "type": "university",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "Học viện Phụ nữ Việt Nam",
+        "display_name": "Học viện Phụ nữ Việt Nam, 68, Đường Nguyễn Chí Thanh, Láng Hạ, Kẻ Láng, Phường Láng, Thành phố Hà Nội, 11528, Việt Nam",
+        "address": {
+          "amenity": "Học viện Phụ nữ Việt Nam",
+          "house_number": "68",
+          "road": "Đường Nguyễn Chí Thanh",
+          "neighbourhood": "Láng Hạ",
+          "quarter": "Kẻ Láng",
+          "suburb": "Phường Láng",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11528",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0188350",
+          "21.0201439",
+          "105.8064979",
+          "105.8078513"
+        ]
+      },
+      {
+        "place_id": 237002011,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 846162866,
+        "lat": "21.0204833",
+        "lon": "105.8079376",
+        "class": "office",
+        "type": "government",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "office",
+        "name": "Cục Công nghệ Thông tin - Ngân hàng Nhà nước Việt Nam",
+        "display_name": "Cục Công nghệ Thông tin - Ngân hàng Nhà nước Việt Nam, 64, Đường Nguyễn Chí Thanh, Láng Trung, Kẻ Láng, Phường Láng, Thành phố Hà Nội, 11528, Việt Nam",
+        "address": {
+          "office": "Cục Công nghệ Thông tin - Ngân hàng Nhà nước Việt Nam",
+          "house_number": "64",
+          "road": "Đường Nguyễn Chí Thanh",
+          "neighbourhood": "Láng Trung",
+          "quarter": "Kẻ Láng",
+          "suburb": "Phường Láng",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11528",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0202778",
+          "21.0206888",
+          "105.8077351",
+          "105.8081401"
+        ]
+      },
+      {
+        "place_id": 236713023,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025752,
+        "lat": "21.0170415",
+        "lon": "105.8068972",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 103, Đường Nguyễn Chí Thanh, Láng Hạ, Kẻ Láng, Phường Láng, Thành phố Hà Nội, 11528, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "103",
+          "road": "Đường Nguyễn Chí Thanh",
+          "neighbourhood": "Láng Hạ",
+          "quarter": "Kẻ Láng",
+          "suburb": "Phường Láng",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11528",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0169915",
+          "21.0170915",
+          "105.8068472",
+          "105.8069472"
+        ]
+      },
+      {
+        "place_id": 236699153,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025763,
+        "lat": "21.0214233",
+        "lon": "105.8094539",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 87, Đường Nguyễn Chí Thanh, Phường Giảng Võ, Thành phố Hà Nội, 11110, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "87",
+          "road": "Đường Nguyễn Chí Thanh",
+          "suburb": "Phường Giảng Võ",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11110",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0213733",
+          "21.0214733",
+          "105.8094039",
+          "105.8095039"
+        ]
+      },
+      {
+        "place_id": 237598836,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498026006,
+        "lat": "21.0240155",
+        "lon": "105.8112059",
+        "class": "amenity",
+        "type": "bank",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 71, Đường Nguyễn Chí Thanh, Phường Giảng Võ, Thành phố Hà Nội, 11110, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "71",
+          "road": "Đường Nguyễn Chí Thanh",
+          "suburb": "Phường Giảng Võ",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11110",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0239655",
+          "21.0240655",
+          "105.8111559",
+          "105.8112559"
+        ]
+      }
+    ]
+  },
+  "NGÕ THÔNG RA PHỐ CỰC RỘNG, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "NGÕ THÔNG RA PHỐ CỰC RỘNG, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:08",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "HẺM XE HƠI NGỦ TRONG NHÀ BTCT SỔ VUÔNG A4 CHỈ 6, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "HẺM XE HƠI NGỦ TRONG NHÀ BTCT SỔ VUÔNG A4 CHỈ 6, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:10",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nhà đẳng cấp XE HƠI NGỦ NHÀ luền kề Phú Mỹ Hưng, Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nhà đẳng cấp XE HƠI NGỦ NHÀ luền kề Phú Mỹ Hưng, Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:12",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "PHỐ CỔ LÒNG ĐƯỜNG, Hoàn Kiếm, Thành phố Hà Nội, Việt Nam": {
+    "query": "PHỐ CỔ LÒNG ĐƯỜNG, Hoàn Kiếm, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:14",
+    "status_code": 200,
+    "candidates_count": 4,
+    "raw_response": [
+      {
+        "place_id": 238033814,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025804,
+        "lat": "21.0328101",
+        "lon": "105.8463895",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 37B, Phố Đường Thành, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "37B",
+          "road": "Phố Đường Thành",
+          "quarter": "Khu phố cổ",
+          "suburb": "Phường Hoàn Kiếm",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11024",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0327601",
+          "21.0328601",
+          "105.8463395",
+          "105.8464395"
+        ]
+      },
+      {
+        "place_id": 238140131,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025801,
+        "lat": "21.0328011",
+        "lon": "105.8461787",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 10, Phố Đường Thành, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "10",
+          "road": "Phố Đường Thành",
+          "quarter": "Khu phố cổ",
+          "suburb": "Phường Hoàn Kiếm",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11024",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0327511",
+          "21.0328511",
+          "105.8461287",
+          "105.8462287"
+        ]
+      },
+      {
+        "place_id": 238285790,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 1498025855,
+        "lat": "21.0292870",
+        "lon": "105.8570931",
+        "class": "amenity",
+        "type": "atm",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "amenity",
+        "name": "BIDV",
+        "display_name": "BIDV, 194, Đường Trần Quang Khải, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam",
+        "address": {
+          "amenity": "BIDV",
+          "house_number": "194",
+          "road": "Đường Trần Quang Khải",
+          "quarter": "Khu phố cổ",
+          "suburb": "Phường Hoàn Kiếm",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11024",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0292370",
+          "21.0293370",
+          "105.8570431",
+          "105.8571431"
+        ]
+      },
+      {
+        "place_id": 427163932,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14148775411,
+        "lat": "21.0341385",
+        "lon": "105.8460268",
+        "class": "office",
+        "type": "company",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "office",
+        "name": "Công ty Cổ phần Nước và Môi trường Việt Nam",
+        "display_name": "Công ty Cổ phần Nước và Môi trường Việt Nam, 5, Phố Đường Thành, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam",
+        "address": {
+          "office": "Công ty Cổ phần Nước và Môi trường Việt Nam",
+          "house_number": "5",
+          "road": "Phố Đường Thành",
+          "quarter": "Khu phố cổ",
+          "suburb": "Phường Hoàn Kiếm",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11024",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0340885",
+          "21.0341885",
+          "105.8459768",
+          "105.8460768"
+        ]
+      }
+    ]
+  },
+  "phố An Dương Vương x 5, Tây Hồ, Thành phố Hà Nội, Việt Nam": {
+    "query": "phố An Dương Vương x 5, Tây Hồ, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:17",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "PHỐ ĐẲNG CẤP NGAY NGÃ TƯ GA QUẬN 12, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "PHỐ ĐẲNG CẤP NGAY NGÃ TƯ GA QUẬN 12, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:19",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Cách đường chính số 9 khoảng là ra Phạm Văn Đồng Kha Vạn Cân, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Cách đường chính số 9 khoảng là ra Phạm Văn Đồng Kha Vạn Cân, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:21",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Khu Tân Thành, Tân Phú, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Khu Tân Thành, Tân Phú, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:23",
+    "status_code": 200,
+    "candidates_count": 4,
+    "raw_response": [
+      {
+        "place_id": 258704357,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 6716229436,
+        "lat": "10.7774856",
+        "lon": "106.6344474",
+        "class": "amenity",
+        "type": "bank",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "amenity",
+        "name": "Agribank",
+        "display_name": "Agribank, Lũy Bán Bích, Khu phố 26, Phường Tân Phú, Thành phố Hồ Chí Minh, 72031, Việt Nam",
+        "address": {
+          "amenity": "Agribank",
+          "road": "Lũy Bán Bích",
+          "neighbourhood": "Khu phố 26",
+          "suburb": "Phường Tân Phú",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72031",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7774356",
+          "10.7775356",
+          "106.6343974",
+          "106.6344974"
+        ]
+      },
+      {
+        "place_id": 427645391,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 14161791814,
+        "lat": "10.7692907",
+        "lon": "106.6320690",
+        "class": "office",
+        "type": "company",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "office",
+        "name": "Công ty PLB Việt Nam",
+        "display_name": "Công ty PLB Việt Nam, Hẻm 142 Lũy Bán Bích, Khu phố 40, Phường Tân Phú, Thành phố Hồ Chí Minh, 72015, Việt Nam",
+        "address": {
+          "office": "Công ty PLB Việt Nam",
+          "road": "Hẻm 142 Lũy Bán Bích",
+          "neighbourhood": "Khu phố 40",
+          "suburb": "Phường Tân Phú",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72015",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7692407",
+          "10.7693407",
+          "106.6320190",
+          "106.6321190"
+        ]
+      },
+      {
+        "place_id": 260546570,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 11409199747,
+        "lat": "10.8146321",
+        "lon": "106.6268167",
+        "class": "office",
+        "type": "government",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "office",
+        "name": "BENLUXURY VIỆT NAM",
+        "display_name": "BENLUXURY VIỆT NAM, 10, Đường D14B, Khu phố 10, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72000, Việt Nam",
+        "address": {
+          "office": "BENLUXURY VIỆT NAM",
+          "house_number": "10",
+          "road": "Đường D14B",
+          "neighbourhood": "Khu phố 10",
+          "suburb": "Phường Tây Thạnh",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72000",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8145821",
+          "10.8146821",
+          "106.6267667",
+          "106.6268667"
+        ]
+      },
+      {
+        "place_id": 257028054,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 4373270167,
+        "lat": "10.7647209",
+        "lon": "106.6253553",
+        "class": "office",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 6.703364614323671e-05,
+        "addresstype": "office",
+        "name": "Dụng Cụ Cầm Tay Crossman Việt Nam",
+        "display_name": "Dụng Cụ Cầm Tay Crossman Việt Nam, 158/A50, Phan Anh, Khu phố 38, Phường Phú Thạnh, Thành phố Hồ Chí Minh, 30000, Việt Nam",
+        "address": {
+          "office": "Dụng Cụ Cầm Tay Crossman Việt Nam",
+          "house_number": "158/A50",
+          "road": "Phan Anh",
+          "neighbourhood": "Khu phố 38",
+          "suburb": "Phường Phú Thạnh",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "30000",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7646709",
+          "10.7647709",
+          "106.6253053",
+          "106.6254053"
+        ]
+      }
+    ]
+  },
+  "BÁN GẤP NHÀ NGUYỄN KHÁNH TOÀN PHƯỜNG QUAN HOA CẦU GIẤY, Thành phố Hà Nội, Việt Nam": {
+    "query": "BÁN GẤP NHÀ NGUYỄN KHÁNH TOÀN PHƯỜNG QUAN HOA CẦU GIẤY, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:25",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "căn góc DT đất 123 Nguyễn Thị Tần quận 8, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "căn góc DT đất 123 Nguyễn Thị Tần quận 8, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:27",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "TẠI ĐỒNG MAI HÀ ĐÔNG THIẾT KẾ, Thành phố Hà Nội, Việt Nam": {
+    "query": "TẠI ĐỒNG MAI HÀ ĐÔNG THIẾT KẾ, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:29",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Sổ vỉa hè mênh mông tại Khâm Thiên sầm uất 52 m2 dòng tiên, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "Sổ vỉa hè mênh mông tại Khâm Thiên sầm uất 52 m2 dòng tiên, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:32",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "đường thuật tiện di chuyển kết nối Nguyễn ảnh Thủ Nguyễn Thị Búp Phường Vip Hiệp Thành, Quận 12, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "đường thuật tiện di chuyển kết nối Nguyễn ảnh Thủ Nguyễn Thị Búp Phường Vip Hiệp Thành, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:34",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "CẦN BÁN GẤP NHÀ QUẬN GÒ VẤP XE HƠI ĐẬU CỬA SỔ VUÔNG A4 NHỎ XINH LUNG LINH, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "CẦN BÁN GẤP NHÀ QUẬN GÒ VẤP XE HƠI ĐẬU CỬA SỔ VUÔNG A4 NHỎ XINH LUNG LINH, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:36",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "💥💥💥 NHÀ GẦN #AEON #CỔLINH LONG BIÊN CHÀO 6 x TỶ 🏘️ Diện tích 37 m2 Mặt, Thành phố Hà Nội, Việt Nam": {
+    "query": "💥💥💥 NHÀ GẦN #AEON #CỔLINH LONG BIÊN CHÀO 6 x TỶ 🏘️ Diện tích 37 m2 Mặt, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:38",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hẻm quay đầu Cách Mạng Tháng 8 P15 Q10 ngang 6, Quận 10, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hẻm quay đầu Cách Mạng Tháng 8 P15 Q10 ngang 6, Quận 10, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:40",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Hoàng Bật Đạt phường 15 Tân Bình 5 x 10 3 x, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Hoàng Bật Đạt phường 15 Tân Bình 5 x 10 3 x, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:42",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Đường Trường Sa Q3 DT 3, Quận 3, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Đường Trường Sa Q3 DT 3, Quận 3, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:45",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "THỤY KHUÊ TÂY HỒ X4T MT3M, Thành phố Hà Nội, Việt Nam": {
+    "query": "THỤY KHUÊ TÂY HỒ X4T MT3M, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:47",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "PHỐ NGUYỄN KHANG TÒA VP 80M² VỈA HÈ VIEW SÔNG SỔ VUÔNG ĐÉT, Cầu Giấy, Thành phố Hà Nội, Việt Nam": {
+    "query": "PHỐ NGUYỄN KHANG TÒA VP 80M² VỈA HÈ VIEW SÔNG SỔ VUÔNG ĐÉT, Cầu Giấy, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:48",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "7, Quận 12, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "7, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:52",
+    "status_code": 200,
+    "candidates_count": 5,
+    "raw_response": [
+      {
+        "place_id": 258942913,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 750515790,
+        "lat": "10.8611305",
+        "lon": "106.6541962",
+        "class": "landuse",
+        "type": "residential",
+        "place_rank": 24,
+        "importance": 0.08006703364614325,
+        "addresstype": "residential",
+        "name": "CĂN HỘ ZEN TOWER QUẬN 12",
+        "display_name": "CĂN HỘ ZEN TOWER QUẬN 12, 34/1A, Phường Thới An, Thành phố Hồ Chí Minh, 71513, Việt Nam",
+        "address": {
+          "residential": "CĂN HỘ ZEN TOWER QUẬN 12",
+          "house_number": "34/1A",
+          "suburb": "Phường Thới An",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "71513",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.8605525",
+          "10.8616628",
+          "106.6535639",
+          "106.6547923"
+        ]
+      },
+      {
+        "place_id": 258799455,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 659636063,
+        "lat": "10.7686370",
+        "lon": "106.6456969",
+        "class": "highway",
+        "type": "residential",
+        "place_rank": 26,
+        "importance": 0.05340036697947658,
+        "addresstype": "road",
+        "name": "Hẻm 416/12 Lạc Long Quân",
+        "display_name": "Hẻm 416/12 Lạc Long Quân, Khu phố 8, Phường Hòa Bình, Thành phố Hồ Chí Minh, 72015, Việt Nam",
+        "address": {
+          "road": "Hẻm 416/12 Lạc Long Quân",
+          "neighbourhood": "Khu phố 8",
+          "suburb": "Phường Hòa Bình",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72015",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7685506",
+          "10.7687226",
+          "106.6456699",
+          "106.6457635"
+        ]
+      },
+      {
+        "place_id": 259207566,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 609077428,
+        "lat": "10.7902731",
+        "lon": "106.6518773",
+        "class": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04006703364614327,
+        "addresstype": "road",
+        "name": "Hẻm 1129/12 Lạc Long Quân",
+        "display_name": "Hẻm 1129/12 Lạc Long Quân, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72117, Việt Nam",
+        "address": {
+          "road": "Hẻm 1129/12 Lạc Long Quân",
+          "suburb": "Phường Bảy Hiền",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72117",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7897583",
+          "10.7905610",
+          "106.6515641",
+          "106.6519285"
+        ]
+      },
+      {
+        "place_id": 256150191,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 659632009,
+        "lat": "10.7739993",
+        "lon": "106.6448837",
+        "class": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04006703364614327,
+        "addresstype": "road",
+        "name": "Hẻm 423/34/12 Lạc Long Quân",
+        "display_name": "Hẻm 423/34/12 Lạc Long Quân, Khu phố 4, Phường Hòa Bình, Thành phố Hồ Chí Minh, 72117, Việt Nam",
+        "address": {
+          "road": "Hẻm 423/34/12 Lạc Long Quân",
+          "neighbourhood": "Khu phố 4",
+          "suburb": "Phường Hòa Bình",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72117",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7739131",
+          "10.7740855",
+          "106.6447534",
+          "106.6450139"
+        ]
+      },
+      {
+        "place_id": 258880025,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 675753585,
+        "lat": "10.7864457",
+        "lon": "106.6505388",
+        "class": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04006703364614327,
+        "addresstype": "road",
+        "name": "Hẻm 947/12 Lạc Long Quân",
+        "display_name": "Hẻm 947/12 Lạc Long Quân, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72117, Việt Nam",
+        "address": {
+          "road": "Hẻm 947/12 Lạc Long Quân",
+          "suburb": "Phường Bảy Hiền",
+          "city": "Thành phố Hồ Chí Minh",
+          "ISO3166-2-lvl4": "VN-SG",
+          "postcode": "72117",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "10.7863223",
+          "10.7865691",
+          "106.6505087",
+          "106.6505689"
+        ]
+      }
+    ]
+  },
+  "Hoàng Liệt Hoàng Mai vài bước ra Vành Đai 3, Thành phố Hà Nội, Việt Nam": {
+    "query": "Hoàng Liệt Hoàng Mai vài bước ra Vành Đai 3, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:54",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Nằm đoạn giữa Dương Tử Giang và Đỗ Ngọc Thạnh sầm uất, Quận 5, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Nằm đoạn giữa Dương Tử Giang và Đỗ Ngọc Thạnh sầm uất, Quận 5, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:57",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "NHÀ 2 MẶT NGÕ MT TO 4 2 M, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "NHÀ 2 MẶT NGÕ MT TO 4 2 M, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:39:58",
+    "status_code": 200,
+    "candidates_count": 1,
+    "raw_response": [
+      {
+        "place_id": 238032410,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 19331659,
+        "lat": "21.0107304",
+        "lon": "105.8182024",
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 12,
+        "importance": 0.24007283054856182,
+        "addresstype": "suburb",
+        "name": "Phường Đống Đa",
+        "display_name": "Phường Đống Đa, Thành phố Hà Nội, 11527, Việt Nam",
+        "address": {
+          "suburb": "Phường Đống Đa",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11527",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0015850",
+          "21.0208061",
+          "105.8107968",
+          "105.8341068"
+        ]
+      }
+    ]
+  },
+  "Phố Phương Mai Vị Trí Trung Tâm Lô Góc Thoáng Sáng 31mx6T Giá, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "Phố Phương Mai Vị Trí Trung Tâm Lô Góc Thoáng Sáng 31mx6T Giá, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:00",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "dòng tiền lương khánh thiện long lanh lô góc hoàng mai, Thành phố Hà Nội, Việt Nam": {
+    "query": "dòng tiền lương khánh thiện long lanh lô góc hoàng mai, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:02",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "ngõ Đội Cấn giá 10, Ba Đình, Thành phố Hà Nội, Việt Nam": {
+    "query": "ngõ Đội Cấn giá 10, Ba Đình, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:04",
+    "status_code": 200,
+    "candidates_count": 1,
+    "raw_response": [
+      {
+        "place_id": 236722309,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 19331652,
+        "lat": "21.0395325",
+        "lon": "105.8364230",
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 12,
+        "importance": 0.3811603398772719,
+        "addresstype": "suburb",
+        "name": "Phường Ba Đình",
+        "display_name": "Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam",
+        "address": {
+          "suburb": "Phường Ba Đình",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11120",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "21.0282601",
+          "21.0506205",
+          "105.8265879",
+          "105.8500934"
+        ]
+      }
+    ]
+  },
+  "Láng Trung lô góc vừa ở vừa cho thuê ô tô LH Trang 0968588737, Đống Đa, Thành phố Hà Nội, Việt Nam": {
+    "query": "Láng Trung lô góc vừa ở vừa cho thuê ô tô LH Trang 0968588737, Đống Đa, Thành phố Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:06",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Ngay đường Tam Châu cách bệnh viện tp Thủ Đức ra quốc lộ 1A 1 5km ra Phạm Văn Đồng, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Ngay đường Tam Châu cách bệnh viện tp Thủ Đức ra quốc lộ 1A 1 5km ra Phạm Văn Đồng, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:08",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "PHỐ CỐNG QUỲNH QUẬN 1 19, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "PHỐ CỐNG QUỲNH QUẬN 1 19, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:11",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "hẻm đường Bông Sao phường 1 Quận 8, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "hẻm đường Bông Sao phường 1 Quận 8, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:13",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Kim Giang Thanh Xuân Hà Nội, Việt Nam": {
+    "query": "Kim Giang Thanh Xuân Hà Nội, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:16",
+    "status_code": 200,
+    "candidates_count": 2,
+    "raw_response": [
+      {
+        "place_id": 239063156,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1108011374,
+        "lat": "20.9849390",
+        "lon": "105.8117827",
+        "class": "building",
+        "type": "apartments",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "building",
+        "name": "Chung Cư A1 Kim Giang Tái Định Cư",
+        "display_name": "Chung Cư A1 Kim Giang Tái Định Cư, Ngõ 80 Phố Hoàng Đạo Thành, Phường Khương Đình, Thành phố Hà Nội, 11410, Việt Nam",
+        "address": {
+          "building": "Chung Cư A1 Kim Giang Tái Định Cư",
+          "road": "Ngõ 80 Phố Hoàng Đạo Thành",
+          "suburb": "Phường Khương Đình",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11410",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9848272",
+          "20.9850507",
+          "105.8114956",
+          "105.8120698"
+        ]
+      },
+      {
+        "place_id": 239314067,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1108011375,
+        "lat": "20.9849537",
+        "lon": "105.8112112",
+        "class": "building",
+        "type": "apartments",
+        "place_rank": 30,
+        "importance": 7.283054856179167e-05,
+        "addresstype": "building",
+        "name": "Chung Cư A2 Kim Giang Tái Định Cư",
+        "display_name": "Chung Cư A2 Kim Giang Tái Định Cư, Ngõ 80 Phố Hoàng Đạo Thành, Phường Khương Đình, Thành phố Hà Nội, 11410, Việt Nam",
+        "address": {
+          "building": "Chung Cư A2 Kim Giang Tái Định Cư",
+          "road": "Ngõ 80 Phố Hoàng Đạo Thành",
+          "suburb": "Phường Khương Đình",
+          "city": "Thành phố Hà Nội",
+          "ISO3166-2-lvl4": "VN-HN",
+          "postcode": "11410",
+          "country": "Việt Nam",
+          "country_code": "vn"
+        },
+        "boundingbox": [
+          "20.9848528",
+          "20.9850545",
+          "105.8110702",
+          "105.8113522"
+        ]
+      }
+    ]
+  },
+  "BÁN GẤP 36 ÂU DƯƠNG LÂN QUẬN 8, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "BÁN GẤP 36 ÂU DƯƠNG LÂN QUẬN 8, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:19",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  },
+  "Khu dân cư an ninh dân trí cao văn minh sạch sẽ, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam": {
+    "query": "Khu dân cư an ninh dân trí cao văn minh sạch sẽ, Bình Tân, Thành phố Hồ Chí Minh, Việt Nam",
+    "provider": "Nominatim",
+    "timestamp": "2026-09-17 02:40:21",
+    "status_code": 200,
+    "candidates_count": 0,
+    "raw_response": []
+  }
+}

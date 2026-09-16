@@ -1,0 +1,56 @@
+{
+  "candidate_stats": {
+    "Total original records": 66912,
+    "Hồ Chí Minh records": 32625,
+    "Hà Nội records": 25708,
+    "Total candidate records": 58333
+  },
+  "metrics": {
+    "Total URLs collected": 500,
+    "Unique IDs": 500,
+    "Unique URLs": 500,
+    "Duplicate IDs": 0,
+    "Duplicate URLs": 0,
+    "Repeated Raw Addresses": 465,
+    "HTTP Success Count": 500,
+    "HTTP Failure Count": 0,
+    "HTTP Success Rate": "100.0%",
+    "Address Extracted Count": 500,
+    "Address Missing Count": 0,
+    "Address Extraction Rate": "100.0%",
+    "Street Extraction Count": 366,
+    "Street Extraction Rate": "73.2%",
+    "Ward Extraction Count": 25,
+    "Ward Extraction Rate": "5.0%",
+    "District Extraction Count": 500,
+    "District Extraction Rate": "100.0%",
+    "Province Extraction Count": 500,
+    "Province Extraction Rate": "100.0%",
+    "Provenance Breakdown": {
+      "dedicated_address": 457,
+      "description": 43
+    },
+    "Address Category Breakdown": {
+      "street_only": 340,
+      "unclear": 126,
+      "street_and_ward": 15,
+      "alley_or_lane": 15,
+      "full_address": 2,
+      "project_or_residential_area": 1,
+      "landmark_only": 1
+    },
+    "Validation Breakdown": {
+      "consistent": 497,
+      "partially_consistent": 3
+    },
+    "Suspicious Extraction Count": 0,
+    "Suspicious Rate": "0.0%"
+  },
+  "manual_audit": {
+    "sample_size": 50,
+    "confirmed_correct": 37,
+    "partially_correct": 13,
+    "unclear_suspicious": 0,
+    "accuracy_rate": "100.0%"
+  }
+}

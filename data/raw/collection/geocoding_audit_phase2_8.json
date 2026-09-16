@@ -1,0 +1,187 @@
+{
+  "experiment_id": "Phase_2.8_Full_Scale_Geocoding",
+  "phase": "Phase 2.8 Larger-Scale Geocoding Experiment",
+  "timestamp": "2026-09-17 03:29:11",
+  "input_dataset": "data/raw/collection/detail_locations_phase2_6.csv",
+  "output_dataset": "data/raw/collection/geocoded_locations_phase2_8.csv",
+  "input_count": 500,
+  "output_count": 500,
+  "unique_listing_ids": 500,
+  "unique_urls": 500,
+  "geocoder": "OpenStreetMap Nominatim",
+  "request_configuration": {
+    "delay_seconds": 1.2,
+    "cache_file": "data/raw/collection/geocoding_cache_phase2_8.json",
+    "state_file": "data/raw/collection/geocoding_state_phase2_8.json"
+  },
+  "overall_metrics": {
+    "technical_success_count": 96,
+    "technical_success_pct": 19.2,
+    "no_result_count": 404,
+    "no_result_pct": 80.8,
+    "admin_match_count": 67,
+    "admin_match_pct": 13.4,
+    "spatially_useful_count": 49,
+    "spatially_useful_pct": 9.8
+  },
+  "quality_tier_distribution": {
+    "counts": {
+      "TIER_E_NO_RESULT": 404,
+      "TIER_B_SPATIALLY_USEFUL": 49,
+      "TIER_F_INVALID_OR_INCONSISTENT": 28,
+      "TIER_D_ADMIN_ONLY": 18,
+      "TIER_C_ACCEPTABLE_COARSE": 1
+    },
+    "percentages": {
+      "TIER_E_NO_RESULT": 80.8,
+      "TIER_B_SPATIALLY_USEFUL": 9.8,
+      "TIER_F_INVALID_OR_INCONSISTENT": 5.6,
+      "TIER_D_ADMIN_ONLY": 3.6,
+      "TIER_C_ACCEPTABLE_COARSE": 0.2
+    }
+  },
+  "duplicate_coordinate_analysis": {
+    "valid_coordinate_count": 96,
+    "unique_coordinate_pairs": 89,
+    "duplicate_groups_count": 6,
+    "largest_cluster_size": 3
+  },
+  "province_metrics": {
+    "Hồ Chí Minh": {
+      "total": 250,
+      "success_count": 35,
+      "success_pct": 14.0,
+      "admin_match_count": 26,
+      "admin_match_pct": 10.4,
+      "spatially_useful_count": 21,
+      "spatially_useful_pct": 8.4,
+      "no_result_count": 215
+    },
+    "Hà Nội": {
+      "total": 250,
+      "success_count": 61,
+      "success_pct": 24.4,
+      "admin_match_count": 41,
+      "admin_match_pct": 16.4,
+      "spatially_useful_count": 28,
+      "spatially_useful_pct": 11.2,
+      "no_result_count": 189
+    }
+  },
+  "granularity_metrics": {
+    "street_and_ward": {
+      "total": 23,
+      "success_count": 4,
+      "success_pct": 17.39,
+      "admin_match_count": 2,
+      "spatially_useful_count": 1,
+      "no_result_count": 19
+    },
+    "alley_or_lane": {
+      "total": 114,
+      "success_count": 19,
+      "success_pct": 16.67,
+      "admin_match_count": 15,
+      "spatially_useful_count": 15,
+      "no_result_count": 95
+    },
+    "unclear": {
+      "total": 79,
+      "success_count": 9,
+      "success_pct": 11.39,
+      "admin_match_count": 7,
+      "spatially_useful_count": 5,
+      "no_result_count": 70
+    },
+    "street_only": {
+      "total": 231,
+      "success_count": 62,
+      "success_pct": 26.84,
+      "admin_match_count": 42,
+      "spatially_useful_count": 27,
+      "no_result_count": 169
+    },
+    "landmark_only": {
+      "total": 18,
+      "success_count": 0,
+      "success_pct": 0.0,
+      "admin_match_count": 0,
+      "spatially_useful_count": 0,
+      "no_result_count": 18
+    },
+    "project_or_residential_area": {
+      "total": 17,
+      "success_count": 0,
+      "success_pct": 0.0,
+      "admin_match_count": 0,
+      "spatially_useful_count": 0,
+      "no_result_count": 17
+    },
+    "full_address": {
+      "total": 13,
+      "success_count": 1,
+      "success_pct": 7.69,
+      "admin_match_count": 1,
+      "spatially_useful_count": 1,
+      "no_result_count": 12
+    },
+    "house_number_and_street": {
+      "total": 5,
+      "success_count": 1,
+      "success_pct": 20.0,
+      "admin_match_count": 0,
+      "spatially_useful_count": 0,
+      "no_result_count": 4
+    }
+  },
+  "provenance_metrics": {
+    "title": {
+      "total": 380,
+      "success_count": 86,
+      "success_pct": 22.63,
+      "admin_match_count": 61,
+      "spatially_useful_count": 44,
+      "no_result_count": 294
+    },
+    "dedicated_address": {
+      "total": 82,
+      "success_count": 8,
+      "success_pct": 9.76,
+      "admin_match_count": 5,
+      "spatially_useful_count": 4,
+      "no_result_count": 74
+    },
+    "description": {
+      "total": 38,
+      "success_count": 2,
+      "success_pct": 5.26,
+      "admin_match_count": 1,
+      "spatially_useful_count": 1,
+      "no_result_count": 36
+    }
+  },
+  "manual_validation_metrics": {
+    "total_audited": 47,
+    "correct_count": 3,
+    "correct_pct": 6.38,
+    "acceptable_coarse_count": 7,
+    "incorrect_or_no_result_count": 37
+  },
+  "information_loss_metrics": {
+    "overall_information_loss_rate": 0.0
+  },
+  "failure_taxonomy": {
+    "missing_osm_coverage_or_informal_street": 282,
+    "unmapped_alley": 80,
+    "project_name_ambiguity": 40
+  },
+  "production_safety": {
+    "src_modified": false,
+    "models_modified": false,
+    "processed_data_modified": false,
+    "production_notebooks_modified": false,
+    "p26_dataset_modified": false
+  },
+  "final_status": "CONDITIONAL",
+  "recommendation": "GEOCODING_QUALITY_REQUIRES_IMPROVEMENT"
+}

@@ -32,3 +32,7 @@ Thumbs.db
 # Scratch & Temporary Logs
 scratch/
 *.log
+
+# Project Specifications (Private/Local)
+SPECIFICATION.md
+WEB_SPECIFICATION.md

@@ -1,0 +1,43 @@
+{
+  "phase": "Phase 2.7.1 Address Sanitization & Controlled Re-Geocoding",
+  "provider": "OpenStreetMap Nominatim",
+  "sample_size": 80,
+  "valid_coordinates": 17,
+  "technical_success_pct": 21.25,
+  "no_result_count": 63,
+  "no_result_pct": 78.75,
+  "spatially_useful_count": 9,
+  "spatially_useful_pct": 11.25,
+  "admin_match_count": 12,
+  "admin_match_pct": 15.0,
+  "a_b_comparison": {
+    "raw_phase2_7": {
+      "valid_coordinates": 8,
+      "technical_success_pct": 10.0,
+      "no_result_count": 72,
+      "spatially_useful_count": 7,
+      "admin_match_count": 4
+    },
+    "sanitized_phase2_7_1": {
+      "valid_coordinates": 17,
+      "technical_success_pct": 21.25,
+      "no_result_count": 63,
+      "spatially_useful_count": 9,
+      "admin_match_count": 12
+    },
+    "delta": {
+      "valid_coordinates": 9,
+      "technical_success_pct": 11.25,
+      "no_result_count": -9,
+      "spatially_useful_count": 2,
+      "admin_match_count": 8
+    }
+  },
+  "manual_30_audit": {
+    "total_audited": 30,
+    "correct_count": 6,
+    "correct_pct": 20.0,
+    "acceptable_coarse_count": 0,
+    "incorrect_or_no_result_count": 24
+  }
+}
