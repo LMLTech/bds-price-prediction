@@ -1,0 +1,102 @@
+{
+  "experiment_id": "Phase_2.9_Geographic_Feature_Experiment",
+  "phase": "Phase 2.9 Geographic Feature Integration & Controlled ML Experiment",
+  "timestamp": "2026-09-17 03:35:36",
+  "baseline_reproduction": {
+    "full_test_n": 9172,
+    "r2": 0.3729,
+    "mae_million_vnd": 8417.91,
+    "rmse_million_vnd": 21436.29,
+    "negative_predictions_count": 747
+  },
+  "geographic_coverage": {
+    "full_ml_dataset_n": 45857,
+    "geocoded_locations_total": 500,
+    "matched_ml_records_total": 376,
+    "high_confidence_subset_n": 32,
+    "high_confidence_pct_of_ml_dataset": 0.0698
+  },
+  "controlled_models_subset_metrics": {
+    "subset_train_n": 25,
+    "subset_test_n": 7,
+    "Model_A_Baseline": {
+      "r2": -4.3777,
+      "mae": 12715.57,
+      "rmse": 14141.38
+    },
+    "Model_B_GeoDistance": {
+      "r2": -4.074,
+      "mae": 12470.38,
+      "rmse": 13736.35,
+      "delta_r2": 0.3036
+    },
+    "Model_C_GeoCoordinates": {
+      "r2": -7711.678,
+      "mae": 229846.59,
+      "rmse": 535545.75,
+      "delta_r2": -7707.3003
+    },
+    "Model_D_CombinedGeo": {
+      "r2": -2391.5957,
+      "mae": 141246.71,
+      "rmse": 298283.09,
+      "delta_r2": -2387.218
+    }
+  },
+  "cross_validation_5fold": {
+    "Model_A": {
+      "mean_r2": -16.5553,
+      "std_r2": 28.6285,
+      "fold_r2s": [
+        -4.3777,
+        -4.5375,
+        0.141,
+        -73.6782,
+        -0.3241
+      ]
+    },
+    "Model_B": {
+      "mean_r2": -63.5982,
+      "std_r2": 69.3711,
+      "fold_r2s": [
+        -4.074,
+        -186.1167,
+        -36.4482,
+        -91.1089,
+        -0.2431
+      ]
+    },
+    "Model_C": {
+      "mean_r2": -5110.8359,
+      "std_r2": 6932.5173,
+      "fold_r2s": [
+        -7711.678,
+        -17646.4798,
+        -183.9445,
+        -11.7803,
+        -0.2969
+      ]
+    },
+    "Model_D": {
+      "mean_r2": -41926.4736,
+      "std_r2": 82350.9278,
+      "fold_r2s": [
+        -2391.5957,
+        -205.5227,
+        -407.4286,
+        -206619.4435,
+        -8.3777
+      ]
+    }
+  },
+  "feature_redundancy": {
+    "proxy_vs_geocoded_distance_correlation": 0.9481
+  },
+  "production_safety": {
+    "prod_model_hash_unchanged": true,
+    "prod_features_hash_unchanged": true,
+    "prod_code_modified": false
+  },
+  "final_status": "GEOGRAPHIC_SIGNAL_INCONCLUSIVE",
+  "final_recommendation": "GEOGRAPHIC_FEATURE_REQUIRES_MORE_VALIDATION"
+}

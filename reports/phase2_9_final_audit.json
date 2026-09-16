@@ -1,0 +1,119 @@
+{
+  "audit_id": "PHASE_2_9_FINAL_AUDIT",
+  "phase": "Phase 2.9 — Geographic Feature Integration & Controlled ML Experiment",
+  "timestamp": "2026-09-17T03:42:00+07:00",
+  "final_status": "PASS_WITH_DOCUMENTATION_CORRECTIONS",
+  "record_flow": {
+    "phase2_8_total_records": 500,
+    "valid_coordinates_count": 96,
+    "spatially_useful_count": 49,
+    "matched_ml_listings_raw": 54,
+    "high_confidence_unique_matched": 32,
+    "dropped_records_reconciliation": {
+      "records_dropped_during_cleaning": 17,
+      "reason": "17 raw listings were filtered out during Phase 1/Notebook 02 data cleaning (outlier removal, invalid area/price cleaning) prior to ML dataset creation.",
+      "multi_matches_deduplicated": 5
+    },
+    "train_test_split": {
+      "n_total": 32,
+      "n_train": 25,
+      "n_test": 7,
+      "test_size": 0.2,
+      "random_state": 42
+    }
+  },
+  "data_integrity": {
+    "duplicate_listing_ids_in_subset": 0,
+    "identical_train_test_indices_across_models": true,
+    "target_leakage_in_features": false,
+    "distance_calculation_method": "Haversine formula against deterministic CBD coordinates (HCMC: 10.7769, 106.7009; Hanoi: 21.0285, 105.8542)"
+  },
+  "matrix_diagnostics": {
+    "Model A (Baseline)": {
+      "n_train": 25,
+      "n_test": 7,
+      "n_features_after_preprocessing": 22,
+      "feature_to_sample_ratio": 0.88,
+      "matrix_dimensions": [
+        25,
+        22
+      ],
+      "matrix_rank": 20,
+      "rank_deficient": true,
+      "condition_number": 3.6578e+20,
+      "singular_value_max": 49854.64,
+      "singular_value_min": 1.363e-16
+    },
+    "Model B (Geo Distance)": {
+      "n_train": 25,
+      "n_test": 7,
+      "n_features_after_preprocessing": 22,
+      "feature_to_sample_ratio": 0.88,
+      "matrix_dimensions": [
+        25,
+        22
+      ],
+      "matrix_rank": 22,
+      "rank_deficient": false,
+      "condition_number": 3377200.0,
+      "singular_value_max": 49830.23,
+      "singular_value_min": 0.014755
+    },
+    "Model C (Geo Coordinates)": {
+      "n_train": 25,
+      "n_test": 7,
+      "n_features_after_preprocessing": 24,
+      "feature_to_sample_ratio": 0.96,
+      "matrix_dimensions": [
+        25,
+        24
+      ],
+      "matrix_rank": 22,
+      "rank_deficient": true,
+      "condition_number": 5.486e+20,
+      "singular_value_max": 49855.58,
+      "singular_value_min": 9.0879e-17
+    },
+    "Model D (Combined Geo)": {
+      "n_train": 25,
+      "n_test": 7,
+      "n_features_after_preprocessing": 24,
+      "feature_to_sample_ratio": 0.96,
+      "matrix_dimensions": [
+        25,
+        24
+      ],
+      "matrix_rank": 24,
+      "rank_deficient": false,
+      "condition_number": 1518800000.0,
+      "singular_value_max": 49831.17,
+      "singular_value_min": 3.281e-05
+    }
+  },
+  "correlation_analysis": {
+    "proxy_vs_geocoded_distance_pearson_r": 0.9481,
+    "interpretation": "Geocoded exact distance is 94.81% correlated with existing district centroid proxy distance."
+  },
+  "wording_recommendations": [
+    {
+      "original_claim": "severe overfitting",
+      "recommended_revision": "ill-conditioned design matrix and numerical instability due to high feature-to-sample ratio (p/n = 0.96)",
+      "rationale": "OLS breakdown on N_train=25 with 24 preprocessed features is caused by near-zero singular values (10^-17) and rank deficiency rather than pure variance overfitting."
+    },
+    {
+      "original_claim": "MLR cannot model spatial non-linearity",
+      "recommended_revision": "unregularized OLS is ill-posed when combining high-dimensional one-hot encoded district dummies with raw coordinates on a small sample",
+      "rationale": "The instability is mathematical ill-conditioning from p/n ~ 1.0 rather than an inherent limitation of spatial linear modeling."
+    }
+  ],
+  "production_safety": {
+    "model_pkl_hash": "fb1031fd4f6498348b36e516326b74ed",
+    "model_pkl_status": "UNCHANGED",
+    "housing_features_csv_hash": "6196de8756b6d07ef783eb0c25541df5",
+    "housing_features_csv_status": "UNCHANGED",
+    "predictions_csv_hash": "1fb561ec9d76e0ae4052f9411657cdc3",
+    "predictions_csv_status": "UNCHANGED",
+    "src_code_modified_lines": 0,
+    "notebooks_01_09_modified": false
+  }
+}

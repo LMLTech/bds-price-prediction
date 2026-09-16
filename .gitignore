@@ -1,7 +1,38 @@
-data/
-.idea/
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & Pytest
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual Environments
 .venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend Build Artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/.angular/
+
+# IDEs & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Scratch & Temporary Logs
+scratch/
+*.log
+
+# Project Specifications (Private/Local)
 SPECIFICATION.md
 WEB_SPECIFICATION.md
-__pycache__/
-*.pyc

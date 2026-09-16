@@ -1,0 +1,44 @@
+{
+  "dataset_integrity": {
+    "total_records": 500,
+    "unique_ids": 500,
+    "unique_urls": 500,
+    "id_overlap_with_phase2": 500,
+    "url_overlap_with_phase2": 500
+  },
+  "address_duplication": {
+    "unique_address_raw": 496,
+    "duplicated_address_groups": 4,
+    "rows_in_duplicate_groups": 8,
+    "duplicate_occurrences_beyond_first": 4,
+    "tan_phu_occurrences": 13,
+    "hoai_duc_occurrences": 0
+  },
+  "provenance_distribution": {
+    "title": 380,
+    "dedicated_address": 82,
+    "description": 38
+  },
+  "spatial_granularity": {
+    "LEVEL 2 — STREET_LEVEL": 223,
+    "LEVEL 4 — ALLEY / NGÕ / HẺM": 132,
+    "LEVEL 8 — UNKNOWN / COARSE": 84,
+    "LEVEL 1 — HOUSE_LEVEL": 22,
+    "LEVEL 3 — STREET + WARD": 19,
+    "LEVEL 6 — LANDMARK / NEIGHBORHOOD": 12,
+    "LEVEL 5 — PROJECT / RESIDENTIAL AREA": 8
+  },
+  "actionable_spatial_records": 416,
+  "actionable_spatial_percentage": "83.2%",
+  "manual_audit": {
+    "sample_size": 50,
+    "exact": 38,
+    "partial": 12,
+    "incorrect": 0,
+    "suspicious": 0
+  },
+  "bug_verdict": {
+    "sidebar_address_extraction_bug_fixed": "YES",
+    "evidence": "Unique address_raw count expanded from 35 to 496. 'Tân Phú...' sidebar widget false positives dropped from 235 to 13, and 'Hoài Đức...' dropped from 230 to 0. Actionable spatial records reached 83.2%."
+  }
+}

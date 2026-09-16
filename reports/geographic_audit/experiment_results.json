@@ -1,0 +1,82 @@
+{
+  "overall": {
+    "raw": {
+      "n": 9172,
+      "r2": 0.37294738283203577,
+      "mae": 8418.119069021515,
+      "rmse": 21435.723108474493
+    },
+    "clipped": {
+      "n": 9172,
+      "r2": 0.3839059514412416,
+      "mae": 8065.14707939629,
+      "rmse": 21247.588794924755
+    }
+  },
+  "comparison": [
+    {
+      "evaluation_scope": "Overall Test Set",
+      "model": "Global Model",
+      "n": 9172,
+      "r2_raw": 0.3729,
+      "mae_raw": 8418.12,
+      "rmse_raw": 21435.72,
+      "r2_clip": 0.3839,
+      "mae_clip": 8065.15,
+      "rmse_clip": 21247.59
+    },
+    {
+      "evaluation_scope": "HCMC Test Set",
+      "model": "Global Model",
+      "n": 4196,
+      "r2_raw": 0.4198,
+      "mae_raw": 7545.61,
+      "rmse_raw": 18914.19,
+      "r2_clip": 0.4259,
+      "mae_clip": 7257.97,
+      "rmse_clip": 18814.6
+    },
+    {
+      "evaluation_scope": "HCMC Test Set",
+      "model": "HCMC-only Model",
+      "n": 4196,
+      "r2_raw": 0.4415,
+      "mae_raw": 6279.12,
+      "rmse_raw": 18556.28,
+      "r2_clip": 0.4425,
+      "mae_clip": 6260.01,
+      "rmse_clip": 18539.75
+    },
+    {
+      "evaluation_scope": "Hanoi Test Set",
+      "model": "Global Model",
+      "n": 3995,
+      "r2_raw": 0.4057,
+      "mae_raw": 8976.37,
+      "rmse_raw": 23385.07,
+      "r2_clip": 0.4058,
+      "mae_clip": 8974.79,
+      "rmse_clip": 23384.58
+    },
+    {
+      "evaluation_scope": "Hanoi Test Set",
+      "model": "Hanoi-only Model",
+      "n": 3995,
+      "r2_raw": 0.5367,
+      "mae_raw": 8167.59,
+      "rmse_raw": 20647.46,
+      "r2_clip": 0.5384,
+      "mae_clip": 8133.59,
+      "rmse_clip": 20609.37
+    }
+  ],
+  "provinces_count": 52,
+  "hcmc_samples": {
+    "train": 16877,
+    "test": 4196
+  },
+  "hanoi_samples": {
+    "train": 15883,
+    "test": 3995
+  }
+}

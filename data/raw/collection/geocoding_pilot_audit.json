@@ -1,0 +1,45 @@
+{
+  "coverage": {
+    "total_pilot_records": 80,
+    "valid_coordinates": 8,
+    "technical_success_rate": "10.0%",
+    "no_result_count": 72,
+    "provider_error_count": 0,
+    "invalid_coordinate_count": 0,
+    "ambiguous_count": 0
+  },
+  "spatial_precision_breakdown": {
+    "UNKNOWN": 72,
+    "LANDMARK": 5,
+    "STREET": 2,
+    "CITY/PROVINCE": 1
+  },
+  "spatially_useful_summary": {
+    "count": 7,
+    "percentage": "8.8%"
+  },
+  "administrative_validation": {
+    "UNKNOWN": 72,
+    "ADMIN_MATCH": 4,
+    "ADMIN_PARTIAL_MATCH": 4,
+    "ADMIN_MISMATCH": 0
+  },
+  "cache_and_reproducibility": {
+    "unique_queries_cached": 80,
+    "provider": "OpenStreetMap Nominatim"
+  },
+  "manual_audit": {
+    "sample_size": 30,
+    "correct": 2,
+    "acceptable_coarse": 0,
+    "incorrect": 28,
+    "ambiguous": 0
+  },
+  "failure_analysis": {
+    "primary_cause": "Noisy Real-Estate Query Strings",
+    "description": "Vietnamese listing text often includes promotional keywords (e.g., 'Mặt tiền 4m', 'Hẻm xe hơi', 'Nhà đẹp đón tết', 'Cực phẩm'). Passing these raw description strings verbatim to OSM Nominatim causes Nominatim's strict geocoder to fail matching 90% of requests.",
+    "remedy": "Phase 2.7.1 should apply dedicated street-name normalization to strip promotional adjectives before querying geocoding APIs."
+  },
+  "key_finding_verdict": "CONDITIONAL",
+  "recommendation": "GEOCODING_PILOT_ITERATION_REQUIRED"
+}
